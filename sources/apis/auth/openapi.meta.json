@@ -1,0 +1,11 @@
+{
+  "service": "auth",
+  "sub": null,
+  "source_repo": "auth",
+  "extraction_tier": 3,
+  "extraction_method": "existing spec (static file, openapi.yaml converted to JSON)",
+  "source_path": "openapi.yaml",
+  "staleness_warning": "Spec file last modified 2026-03-02. Route files modified as recently as 2026-04-14. Spec may be outdated.",
+  "route_files_last_modified": "2026-04-14",
+  "extracted_at": "2026-04-15T12:15:00Z"
+}

@@ -1,0 +1,18 @@
+{
+  "artifact_id": "sys-auth",
+  "snapshot_at": "2026-04-15T12:26:25.517589+00:00",
+  "sources": {
+    "internal/api/api.go": {
+      "hash": "8507d924edd948ea0638d0c0c37653c13f26aa21a92d7f1b670270585cb7f03d",
+      "modified": "2026-04-15T11:57:30.400678+00:00"
+    },
+    "cmd/serve_cmd.go": {
+      "hash": "d4aaabf6ad41417948b8b9c53d4f19903c6c6edf2c12578640adad0b3ec3b2e8",
+      "modified": "2026-04-15T11:57:30.397708+00:00"
+    },
+    "internal/models/user.go": {
+      "hash": "31e470b7a10cfd67136d758b784880e14aa44c453bd4ef271dab1300a2e37c87",
+      "modified": "2026-04-15T11:57:30.430941+00:00"
+    }
+  }
+}

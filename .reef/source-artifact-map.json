@@ -1,0 +1,1052 @@
+{
+  "cmd/serve_cmd.go": [
+    "SYS-AUTH"
+  ],
+  "docker-compose-dev.yml": [
+    "SYS-AUTH"
+  ],
+  "go.mod": [
+    "SYS-AUTH"
+  ],
+  "internal/api/api.go": [
+    "SYS-AUTH",
+    "API-AUTH",
+    "DEC-AUTH-DUAL-TRANSPORT-HOOKS",
+    "PAT-CROSS-SERVICE-MIDDLEWARE"
+  ],
+  "internal/api/apiworker/apiworker.go": [
+    "SYS-AUTH"
+  ],
+  "internal/conf/configuration.go": [
+    "SYS-AUTH",
+    "DEC-AUTH-DUAL-TRANSPORT-HOOKS",
+    "GLOSSARY-AUTH"
+  ],
+  "internal/models/user.go": [
+    "SYS-AUTH",
+    "SCH-AUTH",
+    "PROC-AUTH-IDENTITIES-LIFECYCLE",
+    "PROC-AUTH-REFRESH-TOKENS-LIFECYCLE",
+    "PROC-AUTH-USERS-LIFECYCLE",
+    "GLOSSARY-AUTH"
+  ],
+  "internal/observability/tracing.go": [
+    "SYS-AUTH"
+  ],
+  "internal/tokens/service.go": [
+    "SYS-AUTH",
+    "PROC-AUTH-AUTH",
+    "GLOSSARY-AUTH",
+    "PAT-CROSS-SERVICE-DATA-FLOW"
+  ],
+  "main.go": [
+    "SYS-AUTH"
+  ],
+  "config/runtime.exs": [
+    "SYS-REALTIME",
+    "DEC-REALTIME-GENRPC-PUBSUB",
+    "GLOSSARY-REALTIME"
+  ],
+  "docker-compose.yml": [
+    "SYS-REALTIME",
+    "SYS-STORAGE"
+  ],
+  "lib/realtime/application.ex": [
+    "SYS-REALTIME",
+    "DEC-REALTIME-GENRPC-PUBSUB",
+    "GLOSSARY-REALTIME"
+  ],
+  "lib/realtime/tenants/authorization.ex": [
+    "SYS-REALTIME",
+    "PROC-REALTIME-AUTH",
+    "GLOSSARY-REALTIME",
+    "CON-AUTH-REALTIME",
+    "PAT-CROSS-SERVICE-DATA-FLOW"
+  ],
+  "lib/realtime/tenants/connect.ex": [
+    "SYS-REALTIME",
+    "PROC-REALTIME-ERROR-HANDLING",
+    "GLOSSARY-REALTIME",
+    "RISK-REALTIME-KNOWN-GAPS"
+  ],
+  "lib/realtime/tenants/janitor.ex": [
+    "SYS-REALTIME"
+  ],
+  "lib/realtime/tenants/replication_connection.ex": [
+    "SYS-REALTIME",
+    "SCH-REALTIME-FIELD-LINEAGE",
+    "GLOSSARY-REALTIME"
+  ],
+  "lib/realtime_web/channels/realtime_channel.ex": [
+    "SYS-REALTIME",
+    "SCH-REALTIME-FIELD-LINEAGE",
+    "API-REALTIME",
+    "PROC-REALTIME-ERROR-HANDLING",
+    "PROC-REALTIME-AUTH",
+    "GLOSSARY-REALTIME",
+    "RISK-REALTIME-KNOWN-GAPS",
+    "PAT-CROSS-SERVICE-DATA-FLOW"
+  ],
+  "lib/realtime_web/router.ex": [
+    "SYS-REALTIME",
+    "API-REALTIME",
+    "PROC-REALTIME-AUTH"
+  ],
+  "mix.exs": [
+    "SYS-REALTIME",
+    "DEC-REALTIME-GENRPC-PUBSUB"
+  ],
+  "apps/studio/data/fetchers.ts": [
+    "SYS-STUDIO",
+    "API-STUDIO-API-TYPES",
+    "PROC-STUDIO-AUTH",
+    "PROC-STUDIO-ERROR-HANDLING",
+    "PROC-STUDIO-MULTI-APP-COMPARISON",
+    "DEC-STUDIO-BFF-PROXY",
+    "GLOSSARY-STUDIO",
+    "CON-STUDIO-SERVICES",
+    "RISK-STUDIO-KNOWN-GAPS",
+    "PAT-CROSS-SERVICE-AUTH",
+    "PAT-CROSS-SERVICE-DATA-FLOW",
+    "PAT-CROSS-SERVICE-MIDDLEWARE"
+  ],
+  "apps/studio/data/query-client.ts": [
+    "SYS-STUDIO",
+    "DEC-STUDIO-BFF-PROXY",
+    "GLOSSARY-STUDIO",
+    "PAT-CROSS-SERVICE-CACHE",
+    "PAT-CROSS-SERVICE-RETRY"
+  ],
+  "apps/studio/lib/api/apiAuthenticate.ts": [
+    "SYS-STUDIO",
+    "DEC-STUDIO-BFF-PROXY",
+    "GLOSSARY-STUDIO"
+  ],
+  "apps/studio/lib/api/apiHelpers.ts": [
+    "SYS-STUDIO",
+    "DEC-STUDIO-BFF-PROXY",
+    "GLOSSARY-STUDIO"
+  ],
+  "apps/studio/lib/api/apiWrapper.ts": [
+    "SYS-STUDIO",
+    "DEC-STUDIO-BFF-PROXY",
+    "GLOSSARY-STUDIO"
+  ],
+  "apps/studio/lib/constants/index.ts": [
+    "SYS-STUDIO",
+    "PROC-STUDIO-AUTH",
+    "DEC-STUDIO-BFF-PROXY",
+    "GLOSSARY-STUDIO"
+  ],
+  "apps/studio/lib/gotrue.ts": [
+    "SYS-STUDIO",
+    "DEC-STUDIO-BFF-PROXY",
+    "GLOSSARY-STUDIO"
+  ],
+  "apps/studio/next.config.ts": [
+    "SYS-STUDIO",
+    "DEC-STUDIO-BFF-PROXY",
+    "GLOSSARY-STUDIO"
+  ],
+  "apps/studio/package.json": [
+    "SYS-STUDIO",
+    "PROC-STUDIO-MULTI-APP-COMPARISON",
+    "GLOSSARY-SOURCE-INDEX",
+    "GLOSSARY-STUDIO"
+  ],
+  "packages/api-types/package.json": [
+    "SYS-STUDIO",
+    "API-STUDIO-API-TYPES",
+    "PROC-STUDIO-MULTI-APP-COMPARISON"
+  ],
+  "packages/api-types/redocly.yaml": [
+    "SYS-STUDIO",
+    "API-STUDIO-API-TYPES",
+    "PROC-STUDIO-MULTI-APP-COMPARISON",
+    "GLOSSARY-STUDIO"
+  ],
+  "packages/pg-meta/package.json": [
+    "SYS-STUDIO",
+    "PROC-STUDIO-MULTI-APP-COMPARISON"
+  ],
+  "packages/pg-meta/src/index.ts": [
+    "SYS-STUDIO",
+    "SCH-STUDIO-PG-META",
+    "PROC-STUDIO-MULTI-APP-COMPARISON",
+    "GLOSSARY-STUDIO"
+  ],
+  "pnpm-workspace.yaml": [
+    "SYS-STUDIO",
+    "GLOSSARY-STUDIO"
+  ],
+  "turbo.jsonc": [
+    "SYS-STUDIO",
+    "PROC-STUDIO-MULTI-APP-COMPARISON",
+    "GLOSSARY-STUDIO"
+  ],
+  "packages/core/supabase-js/src/SupabaseClient.ts": [
+    "SYS-CLIENT-SDK",
+    "API-CLIENT-SDK",
+    "PROC-CLIENT-SDK-AUTH",
+    "DEC-CLIENT-SDK-AUTH-TOKEN-INJECTION",
+    "GLOSSARY-CLIENT-SDK",
+    "GLOSSARY-SOURCE-INDEX",
+    "PAT-CROSS-SERVICE-DATA-FLOW",
+    "PAT-CROSS-SERVICE-STORAGE"
+  ],
+  "package.json": [
+    "SYS-CLIENT-SDK",
+    "SYS-STORAGE"
+  ],
+  "docker-compose-multi-tenant.yml": [
+    "SYS-STORAGE"
+  ],
+  "src/admin-app.ts": [
+    "SYS-STORAGE"
+  ],
+  "src/app.ts": [
+    "SYS-STORAGE"
+  ],
+  "src/config.ts": [
+    "SYS-STORAGE",
+    "DEC-STORAGE-RLS-AUTH-DELEGATION",
+    "GLOSSARY-STORAGE"
+  ],
+  "src/http/routes/index.ts": [
+    "SYS-STORAGE",
+    "API-STORAGE"
+  ],
+  "src/start/server.ts": [
+    "SYS-STORAGE"
+  ],
+  "src/start/worker.ts": [
+    "SYS-STORAGE"
+  ],
+  "src/storage/backend/adapter.ts": [
+    "SYS-STORAGE",
+    "GLOSSARY-STORAGE"
+  ],
+  "src/storage/storage.ts": [
+    "SYS-STORAGE",
+    "DEC-STORAGE-RLS-AUTH-DELEGATION",
+    "GLOSSARY-STORAGE"
+  ],
+  "watt.json": [
+    "SYS-STORAGE"
+  ],
+  "sources/context/decisions/storage-overview.md": [
+    "SYS-STORAGE",
+    "SCH-STORAGE",
+    "PROC-STORAGE-VECTOR-INDEXES-LIFECYCLE",
+    "PROC-STORAGE-ICEBERG-TABLES-LIFECYCLE"
+  ],
+  "lib/realtime/api/extensions.ex": [
+    "SCH-REALTIME"
+  ],
+  "lib/realtime/api/message.ex": [
+    "SCH-REALTIME"
+  ],
+  "lib/realtime/api/tenant.ex": [
+    "SCH-REALTIME",
+    "RISK-REALTIME-KNOWN-GAPS"
+  ],
+  "lib/realtime/messages.ex": [
+    "SCH-REALTIME"
+  ],
+  "lib/realtime/tenants/batch_broadcast.ex": [
+    "SCH-REALTIME",
+    "SCH-REALTIME-FIELD-LINEAGE",
+    "GLOSSARY-REALTIME"
+  ],
+  "sources/schemas/realtime/schema.md": [
+    "SCH-REALTIME"
+  ],
+  "lib/realtime/adapters/changes.ex": [
+    "SCH-REALTIME-FIELD-LINEAGE"
+  ],
+  "lib/realtime/adapters/postgres/decoder.ex": [
+    "SCH-REALTIME-FIELD-LINEAGE",
+    "RISK-REALTIME-KNOWN-GAPS"
+  ],
+  "lib/realtime/adapters/postgres/protocol.ex": [
+    "SCH-REALTIME-FIELD-LINEAGE"
+  ],
+  "lib/realtime_web/channels/realtime_channel/message_dispatcher.ex": [
+    "SCH-REALTIME-FIELD-LINEAGE",
+    "DEC-REALTIME-GENRPC-PUBSUB",
+    "GLOSSARY-REALTIME"
+  ],
+  "internal/models/factor.go": [
+    "SCH-AUTH",
+    "PROC-AUTH-MFA-FACTORS-LIFECYCLE",
+    "GLOSSARY-AUTH"
+  ],
+  "internal/models/identity.go": [
+    "SCH-AUTH",
+    "PROC-AUTH-IDENTITIES-LIFECYCLE",
+    "GLOSSARY-AUTH"
+  ],
+  "internal/models/one_time_token.go": [
+    "SCH-AUTH",
+    "GLOSSARY-AUTH"
+  ],
+  "internal/models/refresh_token.go": [
+    "SCH-AUTH",
+    "PROC-AUTH-SESSIONS-LIFECYCLE",
+    "PROC-AUTH-REFRESH-TOKENS-LIFECYCLE",
+    "GLOSSARY-AUTH"
+  ],
+  "internal/models/sessions.go": [
+    "SCH-AUTH",
+    "PROC-AUTH-SESSIONS-LIFECYCLE",
+    "PROC-AUTH-MFA-FACTORS-LIFECYCLE",
+    "PROC-AUTH-REFRESH-TOKENS-LIFECYCLE",
+    "GLOSSARY-AUTH",
+    "RISK-AUTH-KNOWN-GAPS"
+  ],
+  "sources/schemas/auth/schema.md": [
+    "SCH-AUTH",
+    "PROC-AUTH-SESSIONS-LIFECYCLE",
+    "PROC-AUTH-WEBAUTHN-CREDENTIALS-LIFECYCLE",
+    "PROC-AUTH-IDENTITIES-LIFECYCLE",
+    "PROC-AUTH-MFA-FACTORS-LIFECYCLE",
+    "PROC-AUTH-REFRESH-TOKENS-LIFECYCLE",
+    "PROC-AUTH-SAML-PROVIDERS-LIFECYCLE",
+    "PROC-AUTH-USERS-LIFECYCLE",
+    "PROC-AUTH-CUSTOM-OAUTH-PROVIDERS-LIFECYCLE"
+  ],
+  "migrations/tenant/0021-s3-multipart-uploads.sql": [
+    "SCH-STORAGE"
+  ],
+  "migrations/tenant/0026-objects-prefixes.sql": [
+    "SCH-STORAGE"
+  ],
+  "migrations/tenant/0038-iceberg-catalog-flag-on-buckets.sql": [
+    "SCH-STORAGE"
+  ],
+  "migrations/tenant/0045-vector-buckets.sql": [
+    "SCH-STORAGE"
+  ],
+  "migrations/tenant/0055-prevent-direct-deletes.sql": [
+    "SCH-STORAGE"
+  ],
+  "src/storage/database/adapter.ts": [
+    "SCH-STORAGE",
+    "PROC-STORAGE-S3-MULTIPART-UPLOADS-PARTS-LIFECYCLE",
+    "PROC-STORAGE-S3-MULTIPART-UPLOADS-LIFECYCLE",
+    "PROC-STORAGE-OBJECTS-LIFECYCLE"
+  ],
+  "src/storage/database/knex.ts": [
+    "SCH-STORAGE",
+    "PROC-STORAGE-S3-MULTIPART-UPLOADS-PARTS-LIFECYCLE",
+    "PROC-STORAGE-S3-MULTIPART-UPLOADS-LIFECYCLE",
+    "PROC-STORAGE-OBJECTS-LIFECYCLE",
+    "DEC-STORAGE-RLS-AUTH-DELEGATION",
+    "GLOSSARY-STORAGE",
+    "RISK-STORAGE-KNOWN-GAPS"
+  ],
+  "src/storage/schemas/bucket.ts": [
+    "SCH-STORAGE"
+  ],
+  "src/storage/schemas/object.ts": [
+    "SCH-STORAGE",
+    "PROC-STORAGE-OBJECTS-LIFECYCLE"
+  ],
+  "src/storage/schemas/vector.ts": [
+    "SCH-STORAGE",
+    "PROC-STORAGE-VECTOR-INDEXES-LIFECYCLE"
+  ],
+  "sources/schemas/storage/schema.md": [
+    "SCH-STORAGE",
+    "PROC-STORAGE-VECTOR-INDEXES-LIFECYCLE",
+    "PROC-STORAGE-ICEBERG-TABLES-LIFECYCLE"
+  ],
+  "sources/apis/storage/openapi.json": [
+    "API-STORAGE"
+  ],
+  "src/http/routes/bucket/index.ts": [
+    "API-STORAGE"
+  ],
+  "src/http/routes/object/createObject.ts": [
+    "API-STORAGE"
+  ],
+  "src/http/routes/object/getSignedURL.ts": [
+    "API-STORAGE"
+  ],
+  "src/http/routes/object/index.ts": [
+    "API-STORAGE"
+  ],
+  "src/http/routes/operations.ts": [
+    "API-STORAGE"
+  ],
+  "src/http/routes/s3/router.ts": [
+    "API-STORAGE"
+  ],
+  "src/http/routes/tus/lifecycle.ts": [
+    "API-STORAGE",
+    "PROC-STORAGE-ERROR-HANDLING"
+  ],
+  "apps/studio/app/api/route.ts": [
+    "API-STUDIO"
+  ],
+  "packages/api-types/types/api.d.ts": [
+    "API-STUDIO",
+    "API-STUDIO-API-TYPES",
+    "CON-STUDIO-SERVICES"
+  ],
+  "packages/api-types/index.ts": [
+    "API-STUDIO-API-TYPES",
+    "PROC-STUDIO-MULTI-APP-COMPARISON"
+  ],
+  "packages/api-types/types/platform.d.ts": [
+    "API-STUDIO-API-TYPES"
+  ],
+  "apps/studio/data/edge-functions/edge-functions-query.ts": [
+    "API-STUDIO-API-TYPES"
+  ],
+  "sources/apis/studio/api-types/openapi.json": [
+    "API-STUDIO-API-TYPES"
+  ],
+  "internal/api/apierrors/errorcode.go": [
+    "API-AUTH",
+    "PROC-AUTH-ERROR-HANDLING"
+  ],
+  "sources/apis/auth/openapi.json": [
+    "API-AUTH"
+  ],
+  "lib/realtime_web/channels/payloads/config.ex": [
+    "API-REALTIME"
+  ],
+  "lib/realtime_web/channels/user_socket.ex": [
+    "API-REALTIME",
+    "PROC-REALTIME-ERROR-HANDLING",
+    "PROC-REALTIME-AUTH"
+  ],
+  "lib/realtime_web/controllers/broadcast_controller.ex": [
+    "API-REALTIME"
+  ],
+  "lib/realtime_web/controllers/tenant_controller.ex": [
+    "API-REALTIME"
+  ],
+  "sources/apis/realtime/openapi.json": [
+    "API-REALTIME"
+  ],
+  "apps/studio/data/access-tokens/access-tokens-query.ts": [
+    "PROC-STUDIO-AUTH"
+  ],
+  "apps/studio/data/api-authorization/api-authorization-query.ts": [
+    "PROC-STUDIO-AUTH"
+  ],
+  "apps/studio/data/auth/keys.ts": [
+    "PROC-STUDIO-AUTH"
+  ],
+  "apps/studio/data/auth/session-access-token-query.ts": [
+    "PROC-STUDIO-AUTH"
+  ],
+  "apps/studio/data/permissions/permissions-query.ts": [
+    "PROC-STUDIO-AUTH",
+    "RISK-STUDIO-KNOWN-GAPS"
+  ],
+  "apps/studio/lib/auth.tsx": [
+    "PROC-STUDIO-AUTH"
+  ],
+  "internal/api/logout.go": [
+    "PROC-AUTH-SESSIONS-LIFECYCLE"
+  ],
+  "internal/models/cleanup.go": [
+    "PROC-AUTH-SESSIONS-LIFECYCLE",
+    "PROC-AUTH-MFA-FACTORS-LIFECYCLE",
+    "PROC-AUTH-REFRESH-TOKENS-LIFECYCLE",
+    "PROC-AUTH-USERS-LIFECYCLE"
+  ],
+  "src/http/plugins/apikey.ts": [
+    "PROC-STORAGE-AUTH"
+  ],
+  "src/http/plugins/db.ts": [
+    "PROC-STORAGE-AUTH",
+    "DEC-STORAGE-RLS-AUTH-DELEGATION",
+    "PAT-CROSS-SERVICE-DATA-FLOW",
+    "PAT-CROSS-SERVICE-STORAGE",
+    "PAT-CROSS-SERVICE-MIDDLEWARE"
+  ],
+  "src/http/plugins/jwt.ts": [
+    "PROC-STORAGE-AUTH",
+    "DEC-STORAGE-RLS-AUTH-DELEGATION",
+    "PAT-CROSS-SERVICE-AUTH",
+    "PAT-CROSS-SERVICE-MIDDLEWARE"
+  ],
+  "src/http/plugins/signature-v4.ts": [
+    "PROC-STORAGE-AUTH",
+    "GLOSSARY-STORAGE",
+    "PAT-CROSS-SERVICE-STORAGE"
+  ],
+  "src/internal/auth/jwt.ts": [
+    "PROC-STORAGE-AUTH",
+    "PAT-CROSS-SERVICE-AUTH",
+    "PAT-CROSS-SERVICE-CACHE",
+    "PAT-CROSS-SERVICE-DATA-FLOW"
+  ],
+  "src/internal/database/connection.ts": [
+    "PROC-STORAGE-AUTH",
+    "DEC-STORAGE-RLS-AUTH-DELEGATION",
+    "GLOSSARY-STORAGE",
+    "RISK-STORAGE-KNOWN-GAPS"
+  ],
+  "src/internal/database/tenant.ts": [
+    "PROC-STORAGE-AUTH",
+    "RISK-STORAGE-KNOWN-GAPS"
+  ],
+  "lib/realtime_web/channels/realtime_channel/broadcast_handler.ex": [
+    "PROC-REALTIME-ERROR-HANDLING"
+  ],
+  "lib/realtime_web/channels/realtime_channel/logging.ex": [
+    "PROC-REALTIME-ERROR-HANDLING"
+  ],
+  "lib/realtime_web/channels/realtime_channel/presence_handler.ex": [
+    "PROC-REALTIME-ERROR-HANDLING"
+  ],
+  "lib/realtime_web/channels/socket_disconnect.ex": [
+    "PROC-REALTIME-ERROR-HANDLING",
+    "RISK-REALTIME-KNOWN-GAPS"
+  ],
+  "packages/core/auth-js/src/GoTrueClient.ts": [
+    "PROC-CLIENT-SDK-AUTH",
+    "CON-AUTH-CLIENT-SDK",
+    "RISK-CLIENT-SDK-KNOWN-GAPS",
+    "PAT-CROSS-SERVICE-AUTH",
+    "PAT-CROSS-SERVICE-DATA-FLOW"
+  ],
+  "packages/core/auth-js/src/lib/constants.ts": [
+    "PROC-CLIENT-SDK-AUTH",
+    "PAT-CROSS-SERVICE-RETRY"
+  ],
+  "packages/core/auth-js/src/lib/errors.ts": [
+    "PROC-CLIENT-SDK-AUTH",
+    "PROC-CLIENT-SDK-ERROR-HANDLING"
+  ],
+  "packages/core/auth-js/src/lib/fetch.ts": [
+    "PROC-CLIENT-SDK-AUTH",
+    "PROC-CLIENT-SDK-ERROR-HANDLING",
+    "PAT-CROSS-SERVICE-MIDDLEWARE",
+    "PAT-CROSS-SERVICE-RETRY"
+  ],
+  "packages/core/auth-js/src/lib/local-storage.ts": [
+    "PROC-CLIENT-SDK-AUTH",
+    "PAT-CROSS-SERVICE-CACHE"
+  ],
+  "packages/core/auth-js/src/lib/locks.ts": [
+    "PROC-CLIENT-SDK-AUTH",
+    "PROC-CLIENT-SDK-ERROR-HANDLING"
+  ],
+  "packages/core/supabase-js/src/lib/SupabaseAuthClient.ts": [
+    "PROC-CLIENT-SDK-AUTH",
+    "GLOSSARY-CLIENT-SDK"
+  ],
+  "packages/core/supabase-js/src/lib/fetch.ts": [
+    "PROC-CLIENT-SDK-AUTH",
+    "DEC-CLIENT-SDK-AUTH-TOKEN-INJECTION",
+    "GLOSSARY-CLIENT-SDK",
+    "PAT-CROSS-SERVICE-AUTH",
+    "PAT-CROSS-SERVICE-DATA-FLOW",
+    "PAT-CROSS-SERVICE-MIDDLEWARE"
+  ],
+  "internal/api/passkey_manage.go": [
+    "PROC-AUTH-WEBAUTHN-CREDENTIALS-LIFECYCLE",
+    "RISK-AUTH-KNOWN-GAPS"
+  ],
+  "internal/api/passkey_registration.go": [
+    "PROC-AUTH-WEBAUTHN-CREDENTIALS-LIFECYCLE"
+  ],
+  "internal/models/webauthn_credential.go": [
+    "PROC-AUTH-WEBAUTHN-CREDENTIALS-LIFECYCLE",
+    "GLOSSARY-AUTH"
+  ],
+  "internal/api/auth.go": [
+    "PROC-AUTH-AUTH",
+    "GLOSSARY-SOURCE-INDEX",
+    "PAT-CROSS-SERVICE-AUTH"
+  ],
+  "internal/api/external.go": [
+    "PROC-AUTH-AUTH",
+    "PROC-AUTH-ERROR-HANDLING",
+    "RISK-AUTH-KNOWN-GAPS"
+  ],
+  "internal/api/hooks.go": [
+    "PROC-AUTH-AUTH",
+    "DEC-AUTH-DUAL-TRANSPORT-HOOKS"
+  ],
+  "internal/api/mfa.go": [
+    "PROC-AUTH-AUTH",
+    "PROC-AUTH-MFA-FACTORS-LIFECYCLE"
+  ],
+  "internal/api/token.go": [
+    "PROC-AUTH-AUTH"
+  ],
+  "internal/hooks/v0hooks/manager.go": [
+    "PROC-AUTH-AUTH",
+    "DEC-AUTH-DUAL-TRANSPORT-HOOKS",
+    "GLOSSARY-AUTH"
+  ],
+  "internal/hooks/v0hooks/v0hooks.go": [
+    "PROC-AUTH-AUTH",
+    "DEC-AUTH-DUAL-TRANSPORT-HOOKS",
+    "GLOSSARY-AUTH"
+  ],
+  "internal/api/identity.go": [
+    "PROC-AUTH-IDENTITIES-LIFECYCLE"
+  ],
+  "internal/api/signup.go": [
+    "PROC-AUTH-IDENTITIES-LIFECYCLE",
+    "PROC-AUTH-USERS-LIFECYCLE",
+    "RISK-AUTH-KNOWN-GAPS"
+  ],
+  "src/http/error-handler.ts": [
+    "PROC-STORAGE-ERROR-HANDLING",
+    "RISK-STORAGE-KNOWN-GAPS"
+  ],
+  "src/http/routes/s3/error-handler.ts": [
+    "PROC-STORAGE-ERROR-HANDLING",
+    "RISK-STORAGE-KNOWN-GAPS"
+  ],
+  "src/internal/errors/codes.ts": [
+    "PROC-STORAGE-ERROR-HANDLING"
+  ],
+  "src/internal/errors/renderable.ts": [
+    "PROC-STORAGE-ERROR-HANDLING"
+  ],
+  "src/internal/errors/render.ts": [
+    "PROC-STORAGE-ERROR-HANDLING"
+  ],
+  "src/internal/errors/storage-error.ts": [
+    "PROC-STORAGE-ERROR-HANDLING"
+  ],
+  "internal/api/admin.go": [
+    "PROC-AUTH-MFA-FACTORS-LIFECYCLE",
+    "PROC-AUTH-USERS-LIFECYCLE",
+    "RISK-AUTH-KNOWN-GAPS"
+  ],
+  "src/storage/protocols/s3/s3-handler.ts": [
+    "PROC-STORAGE-S3-MULTIPART-UPLOADS-PARTS-LIFECYCLE",
+    "PROC-STORAGE-S3-MULTIPART-UPLOADS-LIFECYCLE",
+    "DEC-MULTI-PROTOCOL-STORAGE",
+    "RISK-STORAGE-KNOWN-GAPS"
+  ],
+  "src/storage/schemas/multipart.ts": [
+    "PROC-STORAGE-S3-MULTIPART-UPLOADS-PARTS-LIFECYCLE",
+    "PROC-STORAGE-S3-MULTIPART-UPLOADS-LIFECYCLE"
+  ],
+  "lib/realtime/tenants/authorization/policies.ex": [
+    "PROC-REALTIME-AUTH"
+  ],
+  "lib/realtime/tenants/authorization/policies/broadcast_policies.ex": [
+    "PROC-REALTIME-AUTH"
+  ],
+  "lib/realtime/tenants/authorization/policies/presence_policies.ex": [
+    "PROC-REALTIME-AUTH"
+  ],
+  "lib/realtime_web/channels/auth/channels_authorization.ex": [
+    "PROC-REALTIME-AUTH",
+    "PAT-CROSS-SERVICE-AUTH"
+  ],
+  "lib/realtime_web/channels/auth/jwt_verification.ex": [
+    "PROC-REALTIME-AUTH",
+    "PAT-CROSS-SERVICE-AUTH"
+  ],
+  "src/storage/protocols/vector/knex.ts": [
+    "PROC-STORAGE-VECTOR-INDEXES-LIFECYCLE"
+  ],
+  "src/storage/protocols/vector/vector-store.ts": [
+    "PROC-STORAGE-VECTOR-INDEXES-LIFECYCLE"
+  ],
+  "apps/studio/components/interfaces/ErrorHandling/ErrorMatcher.tsx": [
+    "PROC-STUDIO-ERROR-HANDLING"
+  ],
+  "apps/studio/components/interfaces/ErrorHandling/ErrorMatcher.utils.ts": [
+    "PROC-STUDIO-ERROR-HANDLING"
+  ],
+  "apps/studio/components/interfaces/ErrorHandling/error-mappings.tsx": [
+    "PROC-STUDIO-ERROR-HANDLING"
+  ],
+  "apps/studio/components/interfaces/ErrorHandling/errorMappings/ConnectionTimeout.tsx": [
+    "PROC-STUDIO-ERROR-HANDLING"
+  ],
+  "apps/studio/components/ui/AlertError.tsx": [
+    "PROC-STUDIO-ERROR-HANDLING"
+  ],
+  "apps/studio/components/ui/Error.tsx": [
+    "PROC-STUDIO-ERROR-HANDLING"
+  ],
+  "apps/studio/components/ui/ErrorBoundary/ErrorBoundary.tsx": [
+    "PROC-STUDIO-ERROR-HANDLING"
+  ],
+  "apps/studio/components/ui/ErrorBoundary/GlobalErrorBoundaryState.tsx": [
+    "PROC-STUDIO-ERROR-HANDLING"
+  ],
+  "apps/studio/data/error-patterns.ts": [
+    "PROC-STUDIO-ERROR-HANDLING",
+    "GLOSSARY-STUDIO"
+  ],
+  "apps/studio/types/api-errors.ts": [
+    "PROC-STUDIO-ERROR-HANDLING"
+  ],
+  "apps/studio/types/base.ts": [
+    "PROC-STUDIO-ERROR-HANDLING"
+  ],
+  "internal/api/token_refresh.go": [
+    "PROC-AUTH-REFRESH-TOKENS-LIFECYCLE"
+  ],
+  "src/storage/uploader.ts": [
+    "PROC-STORAGE-S3-MULTIPART-UPLOADS-LIFECYCLE",
+    "PROC-STORAGE-OBJECTS-LIFECYCLE",
+    "DEC-STORAGE-RLS-AUTH-DELEGATION",
+    "GLOSSARY-STORAGE"
+  ],
+  "src/http/routes/iceberg/table.ts": [
+    "PROC-STORAGE-ICEBERG-TABLES-LIFECYCLE"
+  ],
+  "src/storage/protocols/iceberg/catalog/tenant-catalog.ts": [
+    "PROC-STORAGE-ICEBERG-TABLES-LIFECYCLE"
+  ],
+  "src/storage/protocols/iceberg/knex.ts": [
+    "PROC-STORAGE-ICEBERG-TABLES-LIFECYCLE"
+  ],
+  "src/storage/object.ts": [
+    "PROC-STORAGE-OBJECTS-LIFECYCLE",
+    "GLOSSARY-STORAGE",
+    "PAT-CROSS-SERVICE-STORAGE"
+  ],
+  "internal/api/ssoadmin.go": [
+    "PROC-AUTH-SAML-PROVIDERS-LIFECYCLE"
+  ],
+  "internal/models/sso.go": [
+    "PROC-AUTH-SAML-PROVIDERS-LIFECYCLE",
+    "GLOSSARY-AUTH"
+  ],
+  "internal/api/apierrors/apierrors.go": [
+    "PROC-AUTH-ERROR-HANDLING"
+  ],
+  "internal/api/errors.go": [
+    "PROC-AUTH-ERROR-HANDLING"
+  ],
+  "internal/hooks/hookserrors/hookserrors.go": [
+    "PROC-AUTH-ERROR-HANDLING",
+    "DEC-AUTH-DUAL-TRANSPORT-HOOKS",
+    "RISK-AUTH-KNOWN-GAPS"
+  ],
+  "packages/core/functions-js/src/types.ts": [
+    "PROC-CLIENT-SDK-ERROR-HANDLING"
+  ],
+  "packages/core/postgrest-js/src/PostgrestBuilder.ts": [
+    "PROC-CLIENT-SDK-ERROR-HANDLING",
+    "RISK-CLIENT-SDK-KNOWN-GAPS",
+    "PAT-CROSS-SERVICE-RETRY"
+  ],
+  "packages/core/storage-js/src/lib/common/errors.ts": [
+    "PROC-CLIENT-SDK-ERROR-HANDLING"
+  ],
+  "apps/studio/data/api.d.ts": [
+    "PROC-STUDIO-MULTI-APP-COMPARISON"
+  ],
+  "apps/studio/vitest.config.ts": [
+    "PROC-STUDIO-MULTI-APP-COMPARISON"
+  ],
+  "apps/studio/tsconfig.json": [
+    "PROC-STUDIO-MULTI-APP-COMPARISON"
+  ],
+  "packages/pg-meta/src/query/index.ts": [
+    "PROC-STUDIO-MULTI-APP-COMPARISON"
+  ],
+  "packages/pg-meta/src/pg-format/index.ts": [
+    "PROC-STUDIO-MULTI-APP-COMPARISON"
+  ],
+  "packages/pg-meta/tsconfig.json": [
+    "PROC-STUDIO-MULTI-APP-COMPARISON"
+  ],
+  "internal/api/anonymous.go": [
+    "PROC-AUTH-USERS-LIFECYCLE"
+  ],
+  "internal/api/custom_oauth_admin.go": [
+    "PROC-AUTH-CUSTOM-OAUTH-PROVIDERS-LIFECYCLE",
+    "RISK-AUTH-KNOWN-GAPS"
+  ],
+  "internal/models/custom_oauth_provider.go": [
+    "PROC-AUTH-CUSTOM-OAUTH-PROVIDERS-LIFECYCLE",
+    "GLOSSARY-AUTH"
+  ],
+  "internal/hooks/hookshttp/hookshttp.go": [
+    "DEC-AUTH-DUAL-TRANSPORT-HOOKS",
+    "GLOSSARY-AUTH",
+    "RISK-AUTH-KNOWN-GAPS"
+  ],
+  "internal/hooks/hookspgfunc/hookspgfunc.go": [
+    "DEC-AUTH-DUAL-TRANSPORT-HOOKS",
+    "GLOSSARY-AUTH"
+  ],
+  "sources/context/decisions/architecture-overview.md": [
+    "DEC-AUTH-DUAL-TRANSPORT-HOOKS",
+    "DEC-STORAGE-RLS-AUTH-DELEGATION",
+    "DEC-STUDIO-BFF-PROXY",
+    "GLOSSARY-SUPABASE-REEF",
+    "PAT-CROSS-SERVICE-AUTH"
+  ],
+  "lib/realtime/gen_rpc/pub_sub.ex": [
+    "DEC-REALTIME-GENRPC-PUBSUB",
+    "GLOSSARY-REALTIME"
+  ],
+  "lib/realtime/gen_rpc.ex": [
+    "DEC-REALTIME-GENRPC-PUBSUB",
+    "GLOSSARY-REALTIME",
+    "RISK-REALTIME-KNOWN-GAPS"
+  ],
+  "lib/realtime/nodes.ex": [
+    "DEC-REALTIME-GENRPC-PUBSUB",
+    "GLOSSARY-REALTIME"
+  ],
+  "apps/studio/pages/api/platform/pg-meta/[ref]/tables.ts": [
+    "DEC-STUDIO-BFF-PROXY"
+  ],
+  "apps/studio/lib/api/self-hosted/query.ts": [
+    "DEC-STUDIO-BFF-PROXY",
+    "GLOSSARY-STUDIO"
+  ],
+  "sources/context/decisions/self-hosting-overview.md": [
+    "DEC-STUDIO-BFF-PROXY"
+  ],
+  "packages/core/supabase-js/src/lib/types.ts": [
+    "DEC-CLIENT-SDK-AUTH-TOKEN-INJECTION",
+    "GLOSSARY-CLIENT-SDK"
+  ],
+  "packages/core/supabase-js/src/lib/constants.ts": [
+    "DEC-CLIENT-SDK-AUTH-TOKEN-INJECTION"
+  ],
+  "packages/core/functions-js/src/FunctionsClient.ts": [
+    "DEC-CLIENT-SDK-AUTH-TOKEN-INJECTION",
+    "GLOSSARY-CLIENT-SDK"
+  ],
+  "internal/models/flow_state.go": [
+    "GLOSSARY-AUTH"
+  ],
+  "internal/models/linking.go": [
+    "GLOSSARY-AUTH"
+  ],
+  "internal/models/oauth_client.go": [
+    "GLOSSARY-AUTH"
+  ],
+  "internal/reloader/handler.go": [
+    "GLOSSARY-AUTH"
+  ],
+  "internal/security/captcha.go": [
+    "GLOSSARY-AUTH"
+  ],
+  "src/storage/locator.ts": [
+    "GLOSSARY-STORAGE"
+  ],
+  "src/storage/backend/index.ts": [
+    "GLOSSARY-STORAGE"
+  ],
+  "src/storage/backend/file.ts": [
+    "GLOSSARY-STORAGE"
+  ],
+  "src/storage/renderer/renderer.ts": [
+    "GLOSSARY-STORAGE"
+  ],
+  "src/storage/renderer/image.ts": [
+    "GLOSSARY-STORAGE"
+  ],
+  "src/storage/scanner/scanner.ts": [
+    "GLOSSARY-STORAGE"
+  ],
+  "src/storage/cdn/cdn-cache-manager.ts": [
+    "GLOSSARY-STORAGE"
+  ],
+  "src/storage/limits.ts": [
+    "GLOSSARY-STORAGE"
+  ],
+  "src/storage/events/workers.ts": [
+    "GLOSSARY-STORAGE",
+    "PAT-CROSS-SERVICE-QUEUE"
+  ],
+  "lib/realtime/gen_counter/gen_counter.ex": [
+    "GLOSSARY-REALTIME"
+  ],
+  "lib/realtime/tenants.ex": [
+    "GLOSSARY-REALTIME"
+  ],
+  "lib/realtime/users_counter.ex": [
+    "GLOSSARY-REALTIME"
+  ],
+  "lib/realtime/tenants/rebalancer.ex": [
+    "GLOSSARY-REALTIME"
+  ],
+  "lib/realtime/tenants/connect/piper.ex": [
+    "GLOSSARY-REALTIME"
+  ],
+  "packages/core/supabase-js/src/index.ts": [
+    "GLOSSARY-CLIENT-SDK"
+  ],
+  "packages/core/postgrest-js/src/types/common/common.ts": [
+    "GLOSSARY-CLIENT-SDK",
+    "PAT-CROSS-SERVICE-RETRY"
+  ],
+  "packages/core/realtime-js/src/RealtimeChannel.ts": [
+    "GLOSSARY-CLIENT-SDK"
+  ],
+  "packages/core/supabase-js/src/lib/helpers.ts": [
+    "GLOSSARY-CLIENT-SDK"
+  ],
+  "lib/realtime.ex": [
+    "GLOSSARY-SOURCE-INDEX"
+  ],
+  "src/index.ts": [
+    "GLOSSARY-SOURCE-INDEX"
+  ],
+  "apps/studio/data/database-policies/keys.ts": [
+    "GLOSSARY-STUDIO"
+  ],
+  "apps/studio/data/database-policies/database-policies-query.ts": [
+    "GLOSSARY-STUDIO"
+  ],
+  "src/internal/auth/index.ts": [
+    "CON-AUTH-STORAGE"
+  ],
+  "apps/studio/data/__templates/keys.ts": [
+    "CON-STUDIO-SERVICES"
+  ],
+  "apps/studio/data/auth/": [
+    "CON-STUDIO-SERVICES"
+  ],
+  "apps/studio/data/storage/": [
+    "CON-STUDIO-SERVICES"
+  ],
+  "apps/studio/data/realtime/": [
+    "CON-STUDIO-SERVICES"
+  ],
+  "internal/api/jwks.go": [
+    "RISK-AUTH-KNOWN-GAPS"
+  ],
+  "internal/api/mail.go": [
+    "RISK-AUTH-KNOWN-GAPS"
+  ],
+  "internal/api/phone.go": [
+    "RISK-AUTH-KNOWN-GAPS"
+  ],
+  "internal/api/samlacs.go": [
+    "RISK-AUTH-KNOWN-GAPS"
+  ],
+  "internal/api/user.go": [
+    "RISK-AUTH-KNOWN-GAPS"
+  ],
+  "internal/api/verify.go": [
+    "RISK-AUTH-KNOWN-GAPS"
+  ],
+  "internal/models/audit_log_entry.go": [
+    "RISK-AUTH-KNOWN-GAPS"
+  ],
+  "apps/studio/components/interfaces/Auth/AuthProvidersFormValidation.tsx": [
+    "RISK-STUDIO-KNOWN-GAPS"
+  ],
+  "apps/studio/components/to-be-cleaned/Table.tsx": [
+    "RISK-STUDIO-KNOWN-GAPS"
+  ],
+  "apps/studio/data/analytics/infra-monitoring-queries.ts": [
+    "RISK-STUDIO-KNOWN-GAPS"
+  ],
+  "apps/studio/hooks/ui/useFlag.ts": [
+    "RISK-STUDIO-KNOWN-GAPS"
+  ],
+  "apps/studio/lib/sql-parameters.ts": [
+    "RISK-STUDIO-KNOWN-GAPS"
+  ],
+  "apps/studio/state/storage-explorer.tsx": [
+    "RISK-STUDIO-KNOWN-GAPS"
+  ],
+  "README.md": [
+    "RISK-REALTIME-KNOWN-GAPS"
+  ],
+  "lib/realtime/rpc.ex": [
+    "RISK-REALTIME-KNOWN-GAPS"
+  ],
+  "packages/core/auth-js/src/lib/types.ts": [
+    "RISK-CLIENT-SDK-KNOWN-GAPS"
+  ],
+  "packages/core/functions-js/src/edge-runtime.d.ts": [
+    "RISK-CLIENT-SDK-KNOWN-GAPS"
+  ],
+  "packages/core/postgrest-js/src/PostgrestQueryBuilder.ts": [
+    "RISK-CLIENT-SDK-KNOWN-GAPS"
+  ],
+  "packages/core/postgrest-js/src/select-query-parser/result.ts": [
+    "RISK-CLIENT-SDK-KNOWN-GAPS"
+  ],
+  "packages/core/realtime-js/src/lib/transformers.ts": [
+    "RISK-CLIENT-SDK-KNOWN-GAPS"
+  ],
+  "packages/core/storage-js/src/lib/types.ts": [
+    "RISK-CLIENT-SDK-KNOWN-GAPS"
+  ],
+  "patches/knex+3.1.0.patch": [
+    "RISK-STORAGE-KNOWN-GAPS"
+  ],
+  "src/http/routes/object/getSignedUploadURL.ts": [
+    "RISK-STORAGE-KNOWN-GAPS"
+  ],
+  "internal/api/middleware.go": [
+    "PAT-CROSS-SERVICE-AUTH",
+    "PAT-CROSS-SERVICE-MIDDLEWARE"
+  ],
+  "src/internal/cache/lru.ts": [
+    "PAT-CROSS-SERVICE-CACHE"
+  ],
+  "src/internal/cache/ttl.ts": [
+    "PAT-CROSS-SERVICE-CACHE"
+  ],
+  "src/internal/cache/monitoring.ts": [
+    "PAT-CROSS-SERVICE-CACHE"
+  ],
+  "internal/api/provider/oidc_cache.go": [
+    "PAT-CROSS-SERVICE-CACHE"
+  ],
+  "internal/utilities/hibpcache.go": [
+    "PAT-CROSS-SERVICE-CACHE"
+  ],
+  "lib/realtime/tenants/cache.ex": [
+    "PAT-CROSS-SERVICE-CACHE"
+  ],
+  "packages/core/realtime-js/src/RealtimeClient.ts": [
+    "PAT-CROSS-SERVICE-DATA-FLOW",
+    "PAT-CROSS-SERVICE-RETRY"
+  ],
+  "src/internal/queue/queue.ts": [
+    "PAT-CROSS-SERVICE-QUEUE"
+  ],
+  "src/internal/queue/event.ts": [
+    "PAT-CROSS-SERVICE-QUEUE"
+  ],
+  "src/internal/queue/database.ts": [
+    "PAT-CROSS-SERVICE-QUEUE"
+  ],
+  "src/storage/events/lifecycle/webhook.ts": [
+    "PAT-CROSS-SERVICE-QUEUE"
+  ],
+  "apps/studio/state/table-editor-operation-queue.types.ts": [
+    "PAT-CROSS-SERVICE-QUEUE"
+  ],
+  "apps/studio/data/table-rows/operation-queue-save-mutation.ts": [
+    "PAT-CROSS-SERVICE-QUEUE"
+  ],
+  "apps/studio/data/storage/buckets-query.ts": [
+    "PAT-CROSS-SERVICE-STORAGE"
+  ],
+  "apps/studio/lib/upload.ts": [
+    "PAT-CROSS-SERVICE-STORAGE"
+  ],
+  "src/storage/events/lifecycle/object-created.ts": [
+    "PAT-CROSS-SERVICE-STORAGE"
+  ],
+  "internal/api/router.go": [
+    "PAT-CROSS-SERVICE-MIDDLEWARE"
+  ],
+  "src/http/plugins/tenant-id.ts": [
+    "PAT-CROSS-SERVICE-MIDDLEWARE"
+  ]
+}

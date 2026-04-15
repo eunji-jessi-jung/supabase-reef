@@ -1,0 +1,10 @@
+{
+  "artifact_id": "sch-studio-pg-meta",
+  "snapshot_at": "2026-04-15T12:26:26.938589+00:00",
+  "sources": {
+    "packages/pg-meta/src/index.ts": {
+      "hash": "9fae8e68dc4c4026cb985ba6babe7c596d4eec9ed349b1108d6e58ae87a87507",
+      "modified": "2026-04-15T12:00:04.417943+00:00"
+    }
+  }
+}

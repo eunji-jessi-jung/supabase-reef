@@ -1,0 +1,9 @@
+{
+  "service": "realtime",
+  "sub": null,
+  "source_repo": "realtime",
+  "extraction_tier": 4,
+  "extraction_method": "code reading (Phoenix/OpenApiSpex router + controllers)",
+  "source_path": "lib/realtime_web/router.ex",
+  "extracted_at": "2026-04-15T12:15:00Z"
+}

@@ -1,0 +1,14 @@
+{
+  "artifact_id": "sch-auth",
+  "snapshot_at": "2026-04-15T12:26:25.591158+00:00",
+  "sources": {
+    "internal/models/user.go": {
+      "hash": "31e470b7a10cfd67136d758b784880e14aa44c453bd4ef271dab1300a2e37c87",
+      "modified": "2026-04-15T11:57:30.430941+00:00"
+    },
+    "migrations/00_init_auth_schema.up.sql": {
+      "hash": "4c3ab2565f2836d8fa0a54fd9d153facaee0c4c6258fa0a794c93446ddc10f71",
+      "modified": "2026-04-15T11:57:30.437636+00:00"
+    }
+  }
+}

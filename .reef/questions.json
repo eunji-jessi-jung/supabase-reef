@@ -1,0 +1,196 @@
+{
+  "questions": [
+    {
+      "id": "Q-001",
+      "text": "What are the system boundaries of Auth and how do its internal packages (api, models, hooks, mailer, tokens, crypto, security) divide responsibilities?",
+      "source": "auth",
+      "phase": "snorkel",
+      "added": "2026-04-15",
+      "status": "answered"
+    },
+    {
+      "id": "Q-002",
+      "text": "What are the core data entities in Auth (User, Identity, Session, Factor, RefreshToken, OAuthClient, FlowState) and how do they relate?",
+      "source": "auth",
+      "phase": "snorkel",
+      "added": "2026-04-15",
+      "status": "answered"
+    },
+    {
+      "id": "Q-003",
+      "text": "What API endpoints does Auth expose and how are they organized (auth flows, admin, OAuth server, OIDC discovery, MFA)?",
+      "source": "auth",
+      "phase": "snorkel",
+      "added": "2026-04-15",
+      "status": "answered"
+    },
+    {
+      "id": "Q-004",
+      "text": "How does Auth handle JWT issuance, validation, and the hooks system for customizing auth behavior?",
+      "source": "auth",
+      "phase": "snorkel",
+      "added": "2026-04-15",
+      "status": "answered"
+    },
+    {
+      "id": "Q-005",
+      "text": "What external providers does Auth integrate with and how is the OAuth/OIDC flow implemented (including custom OAuth providers)?",
+      "source": "auth",
+      "phase": "snorkel",
+      "added": "2026-04-15",
+      "status": "answered"
+    },
+    {
+      "id": "Q-006",
+      "text": "What MFA mechanisms does Auth support (TOTP, WebAuthn/Passkeys, Phone) and how are they modeled?",
+      "source": "auth",
+      "phase": "snorkel",
+      "added": "2026-04-15",
+      "status": "answered"
+    },
+    {
+      "id": "Q-007",
+      "text": "What are the system boundaries of Realtime and how do its core modules (channels, tenants, PostgresCdc, extensions) interact?",
+      "source": "realtime",
+      "phase": "snorkel",
+      "added": "2026-04-15",
+      "status": "answered"
+    },
+    {
+      "id": "Q-008",
+      "text": "How does Realtime implement its three features: Broadcast (ephemeral messages), Presence (shared state), and Postgres Changes (CDC)?",
+      "source": "realtime",
+      "phase": "snorkel",
+      "added": "2026-04-15",
+      "status": "answered"
+    },
+    {
+      "id": "Q-009",
+      "text": "How does Realtime's multi-tenant architecture work — tenant isolation, connection management, replication, and the janitor/rebalancer processes?",
+      "source": "realtime",
+      "phase": "snorkel",
+      "added": "2026-04-15",
+      "status": "answered"
+    },
+    {
+      "id": "Q-010",
+      "text": "How does Realtime authenticate and authorize WebSocket connections using JWT tokens and RLS policies (BroadcastPolicies, PresencePolicies)?",
+      "source": "realtime",
+      "phase": "snorkel",
+      "added": "2026-04-15",
+      "status": "answered"
+    },
+    {
+      "id": "Q-011",
+      "text": "What are the system boundaries of Storage and how do its multi-protocol handlers (HTTP, TUS, S3, Iceberg) divide responsibilities?",
+      "source": "storage",
+      "phase": "snorkel",
+      "added": "2026-04-15",
+      "status": "answered"
+    },
+    {
+      "id": "Q-012",
+      "text": "What are the core data entities in Storage (Bucket, Object, S3MultipartUpload) and how does Postgres metadata relate to the actual object storage backend?",
+      "source": "storage",
+      "phase": "snorkel",
+      "added": "2026-04-15",
+      "status": "answered"
+    },
+    {
+      "id": "Q-013",
+      "text": "How does Storage handle authentication and authorization using JWTs and Postgres Row Level Security policies?",
+      "source": "storage",
+      "phase": "snorkel",
+      "added": "2026-04-15",
+      "status": "answered"
+    },
+    {
+      "id": "Q-014",
+      "text": "What are the system boundaries of the Studio monorepo and how do apps/studio, packages/pg-meta, and packages/api-types divide responsibilities?",
+      "source": "supabase",
+      "phase": "snorkel",
+      "added": "2026-04-15",
+      "status": "answered"
+    },
+    {
+      "id": "Q-015",
+      "text": "What Postgres introspection capabilities does pg-meta provide (tables, columns, functions, policies, extensions, roles, views)?",
+      "source": "supabase",
+      "phase": "snorkel",
+      "added": "2026-04-15",
+      "status": "answered"
+    },
+    {
+      "id": "Q-016",
+      "text": "What API type definitions does packages/api-types provide and how do they define the contract between Studio and the Supabase platform?",
+      "source": "supabase",
+      "phase": "snorkel",
+      "added": "2026-04-15",
+      "status": "answered"
+    },
+    {
+      "id": "Q-017",
+      "text": "How does Studio authenticate users and manage project-level authorization for the admin dashboard?",
+      "source": "supabase",
+      "phase": "snorkel",
+      "added": "2026-04-15",
+      "status": "answered"
+    },
+    {
+      "id": "Q-018",
+      "text": "What are the system boundaries of supabase-js and how do its sub-packages (auth-js, postgrest-js, realtime-js, storage-js, functions-js) compose into the unified client?",
+      "source": "supabase-js",
+      "phase": "snorkel",
+      "added": "2026-04-15",
+      "status": "answered"
+    },
+    {
+      "id": "Q-019",
+      "text": "How does SupabaseClient initialize and wire together auth, database, realtime, storage, and functions sub-clients?",
+      "source": "supabase-js",
+      "phase": "snorkel",
+      "added": "2026-04-15",
+      "status": "answered"
+    },
+    {
+      "id": "Q-020",
+      "text": "How does supabase-js handle cross-cutting concerns like auth token injection, session management, and fetch customization across all sub-clients?",
+      "source": "supabase-js",
+      "phase": "snorkel",
+      "added": "2026-04-15",
+      "status": "answered"
+    },
+    {
+      "id": "Q-021",
+      "text": "What data flows from Auth to Storage and Realtime — how do JWTs issued by Auth propagate to authorize Storage uploads and Realtime WebSocket connections?",
+      "source": null,
+      "phase": "snorkel",
+      "added": "2026-04-15",
+      "status": "answered"
+    },
+    {
+      "id": "Q-022",
+      "text": "How does the Client SDK (supabase-js) abstract the contracts between Auth, Storage, Realtime, and PostgREST into a unified developer experience?",
+      "source": null,
+      "phase": "snorkel",
+      "added": "2026-04-15",
+      "status": "answered"
+    },
+    {
+      "id": "Q-023",
+      "text": "What shared concepts exist across services — how do 'tenant', 'project', 'JWT', 'RLS', and 'service_role' mean the same or different things in Auth vs Realtime vs Storage?",
+      "source": null,
+      "phase": "snorkel",
+      "added": "2026-04-15",
+      "status": "answered"
+    },
+    {
+      "id": "Q-024",
+      "text": "How does Studio (via pg-meta and api-types) interact with Auth, Storage, and Realtime services for project management?",
+      "source": null,
+      "phase": "snorkel",
+      "added": "2026-04-15",
+      "status": "answered"
+    }
+  ]
+}

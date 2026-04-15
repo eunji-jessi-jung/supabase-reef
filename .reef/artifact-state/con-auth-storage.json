@@ -1,0 +1,10 @@
+{
+  "artifact_id": "con-auth-storage",
+  "snapshot_at": "2026-04-15T12:26:27.596392+00:00",
+  "sources": {
+    "src/internal/auth/index.ts": {
+      "hash": "456cbeface4df713335ebb934b50718f41d278c3b328ef6dacf0f2ad0a50e832",
+      "modified": "2026-04-15T11:57:32.679926+00:00"
+    }
+  }
+}

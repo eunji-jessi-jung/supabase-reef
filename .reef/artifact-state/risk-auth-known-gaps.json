@@ -1,0 +1,10 @@
+{
+  "artifact_id": "risk-auth-known-gaps",
+  "snapshot_at": "2026-04-15T12:26:25.882231+00:00",
+  "sources": {
+    "internal/api/api.go": {
+      "hash": "8507d924edd948ea0638d0c0c37653c13f26aa21a92d7f1b670270585cb7f03d",
+      "modified": "2026-04-15T11:57:30.400678+00:00"
+    }
+  }
+}

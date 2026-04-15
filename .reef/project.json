@@ -1,0 +1,46 @@
+{
+  "name": "supabase-reef",
+  "description": "Supabase is an open-source Firebase alternative. It's a platform of interconnected services — a Go auth server, Elixir realtime engine, TypeScript storage service, and a React dashboard that ties them all together. Shared TypeScript types and a client SDK define the contracts between them.",
+  "sources": [
+    { "name": "auth", "path": "https://github.com/supabase/auth" },
+    { "name": "realtime", "path": "https://github.com/supabase/realtime" },
+    { "name": "storage", "path": "https://github.com/supabase/storage" },
+    { "name": "supabase", "path": "https://github.com/supabase/supabase" },
+    { "name": "supabase-js", "path": "https://github.com/supabase/supabase-js" }
+  ],
+  "services": [
+    {
+      "name": "Auth",
+      "full_name": "Supabase Auth",
+      "description": "Go-based authentication and user management server — JWTs, Row Level Security, email/password/magic link/phone/OAuth provider sign-in",
+      "sources": ["auth"]
+    },
+    {
+      "name": "Realtime",
+      "full_name": "Supabase Realtime",
+      "description": "Elixir-based WebSocket engine for ephemeral messages, shared state synchronization, and Postgres change listeners",
+      "sources": ["realtime"]
+    },
+    {
+      "name": "Storage",
+      "full_name": "Supabase Storage",
+      "description": "TypeScript object storage service with multi-protocol support (HTTP, TUS, S3, Iceberg), Postgres metadata, and RLS-based authorization",
+      "sources": ["storage"]
+    },
+    {
+      "name": "Studio",
+      "full_name": "Supabase Studio",
+      "description": "React/Next.js admin dashboard (apps/studio) with shared type definitions (packages/api-types) and Postgres introspection (packages/pg-meta)",
+      "sources": ["supabase"],
+      "sub_apps": ["studio", "api-types", "pg-meta"]
+    },
+    {
+      "name": "Client SDK",
+      "full_name": "Supabase JS SDK",
+      "description": "TypeScript client SDK providing the unified JavaScript interface to all Supabase services",
+      "sources": ["supabase-js"]
+    }
+  ],
+  "created": "2026-04-15T12:08:50.679159+00:00",
+  "version": "1.0.0"
+}

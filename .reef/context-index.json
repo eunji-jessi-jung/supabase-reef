@@ -1,0 +1,95 @@
+{
+  "indexed_at": "2026-04-15T13:07:19.541826+00:00",
+  "files": {
+    "context/decisions/self-hosting-overview.md": {
+      "hash": "9fe1ff125b150315579888873a654716680f448bdbf879216b5649189e057b27",
+      "size": 1929,
+      "modified": "2026-04-15T12:38:50.529494+00:00",
+      "referenced_by": []
+    },
+    "context/decisions/storage-overview.md": {
+      "hash": "d38981a17a11313a9859f1acc0cfd533bea584dd6d5bb097d6a05039050d451a",
+      "size": 2243,
+      "modified": "2026-04-15T12:38:50.520827+00:00",
+      "referenced_by": []
+    },
+    "context/decisions/realtime-overview.md": {
+      "hash": "49c7cc22947ba260fc5020a371c238f7c86b4e229a0365b8243ebb2007e795b5",
+      "size": 1468,
+      "modified": "2026-04-15T12:38:50.516188+00:00",
+      "referenced_by": []
+    },
+    "context/decisions/architecture-overview.md": {
+      "hash": "29c1a557594b01a5c423d24ed1fbe416608a7b6eb828ce7a8c27189012b6d6a0",
+      "size": 5002,
+      "modified": "2026-04-15T12:38:50.508666+00:00",
+      "referenced_by": []
+    },
+    "context/decisions/auth-overview.md": {
+      "hash": "078b95829f53bf000c5759a0e739b61ddc79b09867729948c74a6b6e7cf64be7",
+      "size": 2152,
+      "modified": "2026-04-15T12:38:50.512636+00:00",
+      "referenced_by": []
+    },
+    "context/decisions/database-overview.md": {
+      "hash": "9764902d0997e29f2507cb9c1b33485c9e38615de594ce23ec3258583ccaf982",
+      "size": 2100,
+      "modified": "2026-04-15T12:38:50.523520+00:00",
+      "referenced_by": []
+    },
+    "raw/supabase-js-testing.md": {
+      "hash": "b77747d5490511d38ae4a3296f98dffceeeaa302f4a0f151a9bdbb5cfab28e66",
+      "size": 6496,
+      "modified": "2026-04-15T12:38:50.565462+00:00",
+      "referenced_by": []
+    },
+    "raw/auth-contributing.md": {
+      "hash": "481ab1145b748bad6acbb94fda8876cafbac80c65997ac9c7b3f48bfc246949e",
+      "size": 16113,
+      "modified": "2026-04-15T12:38:50.550646+00:00",
+      "referenced_by": []
+    },
+    "raw/realtime-readme.md": {
+      "hash": "b2405927686efaebe37c1185b9e41862bfd354b9fc7c1b17c7e6b982184c2e26",
+      "size": 87391,
+      "modified": "2026-04-15T12:38:50.536721+00:00",
+      "referenced_by": []
+    },
+    "raw/supabase-js-readme.md": {
+      "hash": "7cee73d9a11e6d9583b1b03b625ac875957902ba2a330e1e00316303f01dfd53",
+      "size": 8997,
+      "modified": "2026-04-15T12:38:50.547306+00:00",
+      "referenced_by": []
+    },
+    "raw/supabase-js-migration.md": {
+      "hash": "3975c7ca657ac266f0dd2682c0c98dee1f31756c903cecb50328f6c640d7941b",
+      "size": 20268,
+      "modified": "2026-04-15T12:38:50.557007+00:00",
+      "referenced_by": []
+    },
+    "raw/storage-readme.md": {
+      "hash": "3d84ceda8b27cc62cd4c7a7f61d3784ec3898abb0a45ea39b62bedf9b5d665b1",
+      "size": 2481,
+      "modified": "2026-04-15T12:38:50.542890+00:00",
+      "referenced_by": []
+    },
+    "raw/auth-readme.md": {
+      "hash": "95a4dc15388aa652f7109ac2d10f100023f629374fc9688764f252fc02de4790",
+      "size": 42266,
+      "modified": "2026-04-15T12:38:50.534071+00:00",
+      "referenced_by": []
+    },
+    "raw/supabase-js-release.md": {
+      "hash": "6183ecec49e10486150eff380621f7963b81699a93177e0311207d118191f9b2",
+      "size": 12150,
+      "modified": "2026-04-15T12:38:50.561190+00:00",
+      "referenced_by": []
+    },
+    "raw/supabase-js-contributing.md": {
+      "hash": "78f026d31b31508a0d7c793b2fb16d83d4aded6606d21cddef26d571d386f636",
+      "size": 11812,
+      "modified": "2026-04-15T12:38:50.553641+00:00",
+      "referenced_by": []
+    }
+  }
+}

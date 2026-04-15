@@ -1,0 +1,10 @@
+{
+  "artifact_id": "dec-multi-protocol-storage",
+  "snapshot_at": "2026-04-15T12:26:27.925220+00:00",
+  "sources": {
+    "src/storage/protocols/s3/s3-handler.ts": {
+      "hash": "22f6b3712d545d4f23d9f50ffa4bb1e573c831f64a82c27ab7a2a1745141b931",
+      "modified": "2026-04-15T11:57:32.692584+00:00"
+    }
+  }
+}

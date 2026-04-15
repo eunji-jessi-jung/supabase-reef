@@ -1,0 +1,14 @@
+{
+  "artifact_id": "proc-client-sdk-auth",
+  "snapshot_at": "2026-04-15T12:26:27.399534+00:00",
+  "sources": {
+    "packages/core/supabase-js/src/lib/fetch.ts": {
+      "hash": "07cd17d5fcf6eb4e7c13e515ffdf5ac79da89deb960d756baa3455a19d975757",
+      "modified": "2026-04-15T11:57:33.562347+00:00"
+    },
+    "packages/core/supabase-js/src/lib/SupabaseAuthClient.ts": {
+      "hash": "7aa05014846441758bf2565faff83164e5b24b5abe38c235770d587e22662a90",
+      "modified": "2026-04-15T11:57:33.562212+00:00"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+# Realtime
+
+Send and receive messages to connected clients.
+
+Supabase provides a globally distributed Realtime service with the following features:
+
+- **Broadcast**: Send low-latency messages between clients. Perfect for real-time messaging, database changes, cursor tracking, game events, and custom notifications.
+- **Presence**: Track and synchronize user state across clients. Ideal for showing who's online, or active participants.
+- **Postgres Changes**: Listen to database changes in real-time.
+
+## What can you build?
+
+- Chat applications - Real-time messaging with typing indicators and online presence
+- Collaborative tools - Document editing, whiteboards, and shared workspaces
+- Live dashboards - Real-time data visualization and monitoring
+- Multiplayer games - Synchronized game state and player interactions
+- Social features - Live notifications, reactions, and user activity feeds
+
+## Examples
+
+- **Multiplayer.dev**: Showcase application displaying cursor movements and chat messages using Broadcast.
+- **Chat**: Supabase UI chat component using Broadcast to send message between users.
+- **Avatar Stack**: Supabase UI avatar stack component using Presence to track connected users.
+- **Realtime Cursor**: Supabase UI realtime cursor component using Broadcast to share users' cursors for collaborative applications.
+
+## Resources
+
+- **Supabase Realtime**: View the source code.
+- **Realtime: Multiplayer Edition**: Read more about Supabase Realtime.

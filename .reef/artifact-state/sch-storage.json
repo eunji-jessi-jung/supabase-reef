@@ -1,0 +1,14 @@
+{
+  "artifact_id": "sch-storage",
+  "snapshot_at": "2026-04-15T12:26:26.516375+00:00",
+  "sources": {
+    "src/storage/database/knex.ts": {
+      "hash": "e023a8d123e7a087246fafb1319f27420c58589b97832c2118fe2d0bd30287d2",
+      "modified": "2026-04-15T11:57:32.689198+00:00"
+    },
+    "migrations/00_init_auth_schema.up.sql": {
+      "hash": "4c3ab2565f2836d8fa0a54fd9d153facaee0c4c6258fa0a794c93446ddc10f71",
+      "modified": "2026-04-15T11:57:30.437636+00:00"
+    }
+  }
+}

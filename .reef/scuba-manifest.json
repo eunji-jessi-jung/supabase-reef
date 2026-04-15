@@ -1,0 +1,394 @@
+{
+  "generated_at": "2026-04-15T12:36:51.766079+00:00",
+  "planned": [],
+  "completed": [
+    {
+      "id": "SYS-AUTH",
+      "type": "system",
+      "status": "update",
+      "source": "checklist-A",
+      "note": "SYS- deepening: add dependencies, Does NOT Own, behavior highlights, runtime components",
+      "timestamp": "2026-04-15T12:42:59.654243+00:00"
+    },
+    {
+      "id": "SYS-REALTIME",
+      "type": "system",
+      "status": "update",
+      "source": "checklist-A",
+      "timestamp": "2026-04-15T12:42:59.654243+00:00"
+    },
+    {
+      "id": "SYS-STORAGE",
+      "type": "system",
+      "status": "update",
+      "source": "checklist-A",
+      "timestamp": "2026-04-15T12:42:59.654243+00:00"
+    },
+    {
+      "id": "SYS-STUDIO",
+      "type": "system",
+      "status": "update",
+      "source": "checklist-A",
+      "timestamp": "2026-04-15T12:42:59.654243+00:00"
+    },
+    {
+      "id": "API-AUTH",
+      "type": "api",
+      "status": "update",
+      "source": "sources/apis/auth/openapi.json",
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "API-REALTIME",
+      "type": "api",
+      "status": "update",
+      "source": "sources/apis/realtime/openapi.json",
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "API-STORAGE",
+      "type": "api",
+      "status": "update",
+      "source": "sources/apis/storage/openapi.json",
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "API-STUDIO-API-TYPES",
+      "type": "api",
+      "status": "new",
+      "source": "sources/apis/studio/api-types/openapi.json",
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "SCH-AUTH",
+      "type": "schema",
+      "status": "update",
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "SCH-REALTIME",
+      "type": "schema",
+      "status": "update",
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "SCH-STORAGE",
+      "type": "schema",
+      "status": "update",
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "SCH-REALTIME-FIELD-LINEAGE",
+      "type": "schema",
+      "status": "new",
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "PROC-AUTH-USERS-LIFECYCLE",
+      "type": "process",
+      "entity": "users",
+      "tier": 1,
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "PROC-AUTH-IDENTITIES-LIFECYCLE",
+      "type": "process",
+      "entity": "identities",
+      "tier": 1,
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "PROC-AUTH-SESSIONS-LIFECYCLE",
+      "type": "process",
+      "entity": "sessions",
+      "tier": 1,
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "PROC-AUTH-REFRESH-TOKENS-LIFECYCLE",
+      "type": "process",
+      "entity": "refresh_tokens",
+      "tier": 1,
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "PROC-AUTH-MFA-FACTORS-LIFECYCLE",
+      "type": "process",
+      "entity": "mfa_factors",
+      "tier": 1,
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "PROC-AUTH-SAML-PROVIDERS-LIFECYCLE",
+      "type": "process",
+      "entity": "saml_providers",
+      "tier": 1,
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "PROC-AUTH-WEBAUTHN-CREDENTIALS-LIFECYCLE",
+      "type": "process",
+      "entity": "webauthn_credentials",
+      "tier": 1,
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "PROC-AUTH-CUSTOM-OAUTH-PROVIDERS-LIFECYCLE",
+      "type": "process",
+      "entity": "custom_oauth_providers",
+      "tier": 1,
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "PROC-STORAGE-OBJECTS-LIFECYCLE",
+      "type": "process",
+      "entity": "objects",
+      "tier": 1,
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "PROC-STORAGE-S3-MULTIPART-UPLOADS-LIFECYCLE",
+      "type": "process",
+      "entity": "s3_multipart_uploads",
+      "tier": 1,
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "PROC-STORAGE-S3-MULTIPART-UPLOADS-PARTS-LIFECYCLE",
+      "type": "process",
+      "entity": "s3_multipart_uploads_parts",
+      "tier": 1,
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "PROC-STORAGE-ICEBERG-TABLES-LIFECYCLE",
+      "type": "process",
+      "entity": "iceberg_tables",
+      "tier": 1,
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "PROC-STORAGE-VECTOR-INDEXES-LIFECYCLE",
+      "type": "process",
+      "entity": "vector_indexes",
+      "tier": 1,
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "PROC-AUTH-AUTH",
+      "type": "process",
+      "source": "checklist-D",
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "PROC-AUTH-ERROR-HANDLING",
+      "type": "process",
+      "source": "checklist-D",
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "PROC-REALTIME-AUTH",
+      "type": "process",
+      "source": "checklist-D",
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "PROC-REALTIME-ERROR-HANDLING",
+      "type": "process",
+      "source": "checklist-D",
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "PROC-STORAGE-AUTH",
+      "type": "process",
+      "source": "checklist-D",
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "PROC-STORAGE-ERROR-HANDLING",
+      "type": "process",
+      "source": "checklist-D",
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "PROC-STUDIO-AUTH",
+      "type": "process",
+      "source": "checklist-D",
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "PROC-STUDIO-ERROR-HANDLING",
+      "type": "process",
+      "source": "checklist-D",
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "PROC-CLIENT-SDK-AUTH",
+      "type": "process",
+      "source": "checklist-D",
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "PROC-CLIENT-SDK-ERROR-HANDLING",
+      "type": "process",
+      "source": "checklist-D",
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "RISK-AUTH-KNOWN-GAPS",
+      "type": "risk",
+      "status": "update",
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "RISK-REALTIME-KNOWN-GAPS",
+      "type": "risk",
+      "status": "update",
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "RISK-STORAGE-KNOWN-GAPS",
+      "type": "risk",
+      "status": "update",
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "RISK-STUDIO-KNOWN-GAPS",
+      "type": "risk",
+      "status": "update",
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "RISK-CLIENT-SDK-KNOWN-GAPS",
+      "type": "risk",
+      "status": "new",
+      "timestamp": "2026-04-15T12:53:41.874323+00:00"
+    },
+    {
+      "id": "PROC-STUDIO-MULTI-APP-COMPARISON",
+      "type": "process",
+      "source": "checklist-F2",
+      "timestamp": "2026-04-15T21:55:00.000000+00:00"
+    },
+    {
+      "id": "DEC-AUTH-DUAL-TRANSPORT-HOOKS",
+      "type": "decision",
+      "source": "code-scan",
+      "note": "Replaced DEC-AUTH-OBSERVABLE — dual-transport hook system (Postgres + HTTP)",
+      "timestamp": "2026-04-15T22:10:00.000000+00:00"
+    },
+    {
+      "id": "DEC-REALTIME-GENRPC-PUBSUB",
+      "type": "decision",
+      "source": "code-scan",
+      "note": "Replaced DEC-REALTIME-OBSERVABLE — custom GenRPC PubSub for region-aware fan-out",
+      "timestamp": "2026-04-15T22:10:00.000000+00:00"
+    },
+    {
+      "id": "DEC-STORAGE-RLS-AUTH-DELEGATION",
+      "type": "decision",
+      "source": "code-scan",
+      "note": "Replaced DEC-STORAGE-OBSERVABLE — RLS-based auth delegation via GUC variables",
+      "timestamp": "2026-04-15T22:10:00.000000+00:00"
+    },
+    {
+      "id": "DEC-STUDIO-BFF-PROXY",
+      "type": "decision",
+      "source": "code-scan",
+      "note": "Replaced DEC-STUDIO-OBSERVABLE — BFF proxy pattern via Next.js API routes",
+      "timestamp": "2026-04-15T22:10:00.000000+00:00"
+    },
+    {
+      "id": "DEC-CLIENT-SDK-AUTH-TOKEN-INJECTION",
+      "type": "decision",
+      "source": "code-scan",
+      "note": "Replaced DEC-CLIENT-SDK-OBSERVABLE — fetchWithAuth cross-cutting token injection",
+      "timestamp": "2026-04-15T22:10:00.000000+00:00"
+    },
+    {
+      "id": "GLOSSARY-AUTH",
+      "type": "glossary",
+      "status": "update",
+      "note": "Expanded from 13 to 30 terms, added disambiguation section",
+      "timestamp": "2026-04-15T22:10:00.000000+00:00"
+    },
+    {
+      "id": "GLOSSARY-REALTIME",
+      "type": "glossary",
+      "status": "update",
+      "note": "Expanded from 11 to 24 terms, added disambiguation section",
+      "timestamp": "2026-04-15T22:10:00.000000+00:00"
+    },
+    {
+      "id": "GLOSSARY-STORAGE",
+      "type": "glossary",
+      "status": "update",
+      "note": "Expanded from 11 to 28 terms, added disambiguation",
+      "timestamp": "2026-04-15T22:10:00.000000+00:00"
+    },
+    {
+      "id": "GLOSSARY-STUDIO",
+      "type": "glossary",
+      "status": "update",
+      "note": "Expanded from 9 to 25 terms, added disambiguation",
+      "timestamp": "2026-04-15T22:10:00.000000+00:00"
+    },
+    {
+      "id": "GLOSSARY-CLIENT-SDK",
+      "type": "glossary",
+      "status": "new",
+      "note": "New per-service glossary with 23 terms",
+      "timestamp": "2026-04-15T22:10:00.000000+00:00"
+    },
+    {
+      "id": "GLOSSARY-SOURCE-INDEX",
+      "type": "glossary",
+      "status": "new",
+      "note": "Cross-service source index mapping 48 terms to code locations",
+      "timestamp": "2026-04-15T22:10:00.000000+00:00"
+    },
+    {
+      "id": "PAT-CROSS-SERVICE-AUTH",
+      "type": "pattern",
+      "source": "cross-service-pattern",
+      "timestamp": "2026-04-15T22:10:00.000000+00:00"
+    },
+    {
+      "id": "PAT-CROSS-SERVICE-STORAGE",
+      "type": "pattern",
+      "source": "infra-pattern-detection",
+      "timestamp": "2026-04-15T22:10:00.000000+00:00"
+    },
+    {
+      "id": "PAT-CROSS-SERVICE-QUEUE",
+      "type": "pattern",
+      "source": "infra-pattern-detection",
+      "timestamp": "2026-04-15T22:10:00.000000+00:00"
+    },
+    {
+      "id": "PAT-CROSS-SERVICE-CACHE",
+      "type": "pattern",
+      "source": "infra-pattern-detection",
+      "timestamp": "2026-04-15T22:10:00.000000+00:00"
+    },
+    {
+      "id": "PAT-CROSS-SERVICE-MIDDLEWARE",
+      "type": "pattern",
+      "source": "infra-pattern-detection",
+      "timestamp": "2026-04-15T22:10:00.000000+00:00"
+    },
+    {
+      "id": "PAT-CROSS-SERVICE-RETRY",
+      "type": "pattern",
+      "source": "infra-pattern-detection",
+      "timestamp": "2026-04-15T22:10:00.000000+00:00"
+    },
+    {
+      "id": "PAT-CROSS-SERVICE-DATA-FLOW",
+      "type": "pattern",
+      "source": "data-flow-detection",
+      "timestamp": "2026-04-15T22:10:00.000000+00:00"
+    }
+  ],
+  "skipped": []
+}

@@ -1,0 +1,158 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Supabase Realtime API",
+    "version": "extracted",
+    "description": "Extracted by reading source code directly (tier 4). Elixir/Phoenix with OpenApiSpex — runtime extraction not possible (no Elixir on machine). May be incomplete — computed routes, dynamic registrations, or inherited endpoints could be missing."
+  },
+  "servers": [
+    {
+      "url": "https://{tenant}.supabase.co/realtime/v1",
+      "variables": { "tenant": { "default": "tenant" } }
+    }
+  ],
+  "paths": {
+    "/healthcheck": {
+      "get": {
+        "summary": "Health check",
+        "tags": ["Health"],
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/api/openapi": {
+      "get": {
+        "summary": "Get OpenAPI spec",
+        "tags": ["Docs"],
+        "responses": { "200": { "description": "OpenAPI JSON spec" } }
+      }
+    },
+    "/api/tenants": {
+      "get": {
+        "summary": "List tenants",
+        "tags": ["Tenants"],
+        "security": [{"bearerAuth": []}],
+        "responses": { "200": { "description": "List of tenants" }, "403": { "description": "Forbidden" } }
+      },
+      "post": {
+        "summary": "Create tenant",
+        "tags": ["Tenants"],
+        "security": [{"bearerAuth": []}],
+        "responses": { "201": { "description": "Created" }, "403": { "description": "Forbidden" } }
+      }
+    },
+    "/api/tenants/{tenant_id}": {
+      "get": {
+        "summary": "Show tenant",
+        "tags": ["Tenants"],
+        "security": [{"bearerAuth": []}],
+        "parameters": [{"name": "tenant_id", "in": "path", "required": true, "schema": {"type": "string"}}],
+        "responses": { "200": { "description": "Tenant details" }, "404": { "description": "Not found" } }
+      },
+      "put": {
+        "summary": "Update tenant",
+        "tags": ["Tenants"],
+        "security": [{"bearerAuth": []}],
+        "parameters": [{"name": "tenant_id", "in": "path", "required": true, "schema": {"type": "string"}}],
+        "responses": { "200": { "description": "Updated" }, "404": { "description": "Not found" } }
+      },
+      "delete": {
+        "summary": "Delete tenant",
+        "tags": ["Tenants"],
+        "security": [{"bearerAuth": []}],
+        "parameters": [{"name": "tenant_id", "in": "path", "required": true, "schema": {"type": "string"}}],
+        "responses": { "204": { "description": "Deleted" }, "404": { "description": "Not found" } }
+      }
+    },
+    "/api/tenants/{tenant_id}/reload": {
+      "post": {
+        "summary": "Reload tenant",
+        "tags": ["Tenants"],
+        "security": [{"bearerAuth": []}],
+        "parameters": [{"name": "tenant_id", "in": "path", "required": true, "schema": {"type": "string"}}],
+        "responses": { "200": { "description": "Reloaded" } }
+      }
+    },
+    "/api/tenants/{tenant_id}/shutdown": {
+      "post": {
+        "summary": "Shutdown tenant",
+        "tags": ["Tenants"],
+        "security": [{"bearerAuth": []}],
+        "parameters": [{"name": "tenant_id", "in": "path", "required": true, "schema": {"type": "string"}}],
+        "responses": { "200": { "description": "Shut down" } }
+      }
+    },
+    "/api/tenants/{tenant_id}/health": {
+      "get": {
+        "summary": "Tenant health check",
+        "tags": ["Tenants"],
+        "security": [{"bearerAuth": []}],
+        "parameters": [{"name": "tenant_id", "in": "path", "required": true, "schema": {"type": "string"}}],
+        "responses": { "200": { "description": "Health status" } }
+      }
+    },
+    "/api/ping": {
+      "get": {
+        "summary": "Ping",
+        "tags": ["Health"],
+        "responses": { "200": { "description": "Pong" } }
+      }
+    },
+    "/api/broadcast": {
+      "post": {
+        "summary": "Broadcast batch of messages",
+        "tags": ["Broadcast"],
+        "security": [{"bearerAuth": []}],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "messages": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "topic": { "type": "string" },
+                        "event": { "type": "string" },
+                        "payload": { "type": "object" },
+                        "private": { "type": "boolean" }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": { "202": { "description": "Accepted" }, "422": { "description": "Unprocessable entity" }, "429": { "description": "Too many requests" } }
+      }
+    },
+    "/metrics": {
+      "get": {
+        "summary": "Get metrics",
+        "tags": ["Metrics"],
+        "security": [{"bearerAuth": []}],
+        "responses": { "200": { "description": "Prometheus metrics" } }
+      }
+    },
+    "/metrics/{region}": {
+      "get": {
+        "summary": "Get metrics by region",
+        "tags": ["Metrics"],
+        "security": [{"bearerAuth": []}],
+        "parameters": [{"name": "region", "in": "path", "required": true, "schema": {"type": "string"}}],
+        "responses": { "200": { "description": "Regional metrics" } }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "artifact_id": "sys-realtime",
+  "snapshot_at": "2026-04-15T12:26:25.947277+00:00",
+  "sources": {
+    "lib/realtime/application.ex": {
+      "hash": "6556151f1823547dfcd401f5d793fd454e77a527e98b90ec331d3a2f13690367",
+      "modified": "2026-04-15T11:57:31.398214+00:00"
+    },
+    "lib/realtime_web/router.ex": {
+      "hash": "a36d7d05affeb30277d7f64fd19ee82011e50e964da80684a6ed4baa9e3f4401",
+      "modified": "2026-04-15T11:57:31.416107+00:00"
+    }
+  }
+}

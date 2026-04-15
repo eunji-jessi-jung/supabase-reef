@@ -1,0 +1,10 @@
+{
+  "artifact_id": "con-auth-client-sdk",
+  "snapshot_at": "2026-04-15T12:26:27.728897+00:00",
+  "sources": {
+    "packages/core/auth-js/src/GoTrueClient.ts": {
+      "hash": "0e93e288647c1b47c3935c99896a73cdd6d027adbf3c91c78af5bec5cf69a1ae",
+      "modified": "2026-04-15T11:57:33.535048+00:00"
+    }
+  }
+}

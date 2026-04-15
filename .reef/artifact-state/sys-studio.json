@@ -1,0 +1,18 @@
+{
+  "artifact_id": "sys-studio",
+  "snapshot_at": "2026-04-15T12:26:26.871192+00:00",
+  "sources": {
+    "apps/studio/package.json": {
+      "hash": "624c340dd0a80f19c2c3470bf6695f2b76e40cd7af16e7897088006a33204d0a",
+      "modified": "2026-04-15T12:00:02.037833+00:00"
+    },
+    "packages/pg-meta/package.json": {
+      "hash": "e6e70b21ac17152182d0a8c517339fd694a13cfd4d45d291f3b9af7b1f83d92f",
+      "modified": "2026-04-15T12:00:04.417719+00:00"
+    },
+    "packages/api-types/package.json": {
+      "hash": "c9f54e1958ef1449d6bea32fed73b5284daa484e34bd80e6992c99f21e821830",
+      "modified": "2026-04-15T12:00:04.392977+00:00"
+    }
+  }
+}

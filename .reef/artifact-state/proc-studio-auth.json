@@ -1,0 +1,14 @@
+{
+  "artifact_id": "proc-studio-auth",
+  "snapshot_at": "2026-04-15T12:26:27.070439+00:00",
+  "sources": {
+    "apps/studio/data/auth/keys.ts": {
+      "hash": "586ab4d9ff9943e1106f6e2670c0074e0a66c63b907db34afdbfa44a4db4df66",
+      "modified": "2026-04-15T12:00:01.955271+00:00"
+    },
+    "apps/studio/data/access-tokens/keys.ts": {
+      "hash": "23b6cea597cc425881f52ed350e198422fe728dab6203cf10a3371e5f26da4c6",
+      "modified": "2026-04-15T12:00:01.951968+00:00"
+    }
+  }
+}

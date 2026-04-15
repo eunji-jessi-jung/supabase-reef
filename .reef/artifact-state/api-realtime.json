@@ -1,0 +1,10 @@
+{
+  "artifact_id": "api-realtime",
+  "snapshot_at": "2026-04-15T12:26:26.075865+00:00",
+  "sources": {
+    "lib/realtime_web/router.ex": {
+      "hash": "a36d7d05affeb30277d7f64fd19ee82011e50e964da80684a6ed4baa9e3f4401",
+      "modified": "2026-04-15T11:57:31.416107+00:00"
+    }
+  }
+}

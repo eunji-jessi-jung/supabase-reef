@@ -1,0 +1,417 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Supabase Storage API",
+    "version": "extracted",
+    "description": "Extracted by reading source code directly (tier 4). Fastify with @fastify/swagger — runtime extraction failed (native module fs-xattr not compiled). May be incomplete — computed routes, dynamic registrations, or inherited endpoints could be missing."
+  },
+  "tags": [
+    { "name": "object", "description": "Object end-points" },
+    { "name": "bucket", "description": "Bucket end-points" },
+    { "name": "s3", "description": "S3-compatible protocol end-points" },
+    { "name": "transformation", "description": "Image transformation" },
+    { "name": "resumable", "description": "TUS resumable upload end-points" },
+    { "name": "cdn", "description": "CDN cache management" },
+    { "name": "health", "description": "Health check end-points" },
+    { "name": "iceberg", "description": "Apache Iceberg REST catalog" },
+    { "name": "vector", "description": "Vector storage and search" },
+    { "name": "admin", "description": "Admin / multi-tenant management" }
+  ],
+  "paths": {
+    "/object/{bucketName}/{wildcard}": {
+      "post": {
+        "summary": "Create (upload) object",
+        "tags": ["object"],
+        "security": [{"bearerAuth": []}]
+      },
+      "put": {
+        "summary": "Update (overwrite) object",
+        "tags": ["object"],
+        "security": [{"bearerAuth": []}]
+      },
+      "get": {
+        "summary": "Get (download) object",
+        "tags": ["object"],
+        "security": [{"bearerAuth": []}]
+      },
+      "delete": {
+        "summary": "Delete object",
+        "tags": ["object"],
+        "security": [{"bearerAuth": []}]
+      },
+      "head": {
+        "summary": "Get object info (authenticated)",
+        "tags": ["object"],
+        "security": [{"bearerAuth": []}]
+      }
+    },
+    "/object/list/{bucketName}": {
+      "post": {
+        "summary": "List objects (v1)",
+        "tags": ["object"],
+        "security": [{"bearerAuth": []}]
+      }
+    },
+    "/object/ls/{bucketName}": {
+      "post": {
+        "summary": "List objects (v2)",
+        "tags": ["object"],
+        "security": [{"bearerAuth": []}]
+      }
+    },
+    "/object/move": {
+      "post": {
+        "summary": "Move object",
+        "tags": ["object"],
+        "security": [{"bearerAuth": []}]
+      }
+    },
+    "/object/copy": {
+      "post": {
+        "summary": "Copy object",
+        "tags": ["object"],
+        "security": [{"bearerAuth": []}]
+      }
+    },
+    "/object/sign/{bucketName}/{wildcard}": {
+      "post": {
+        "summary": "Create signed URL",
+        "tags": ["object"],
+        "security": [{"bearerAuth": []}]
+      }
+    },
+    "/object/sign": {
+      "post": {
+        "summary": "Create signed URLs (batch)",
+        "tags": ["object"],
+        "security": [{"bearerAuth": []}]
+      }
+    },
+    "/object/upload/sign/{bucketName}/{wildcard}": {
+      "post": {
+        "summary": "Create signed upload URL",
+        "tags": ["object"],
+        "security": [{"bearerAuth": []}]
+      }
+    },
+    "/object/public/{bucketName}/{wildcard}": {
+      "get": {
+        "summary": "Get public object (no auth)",
+        "tags": ["object"]
+      },
+      "head": {
+        "summary": "Get public object info (no auth)",
+        "tags": ["object"]
+      }
+    },
+    "/object/authenticated/{bucketName}/{wildcard}": {
+      "get": {
+        "summary": "Get object info (authenticated, extended)",
+        "tags": ["object"],
+        "security": [{"bearerAuth": []}]
+      }
+    },
+    "/object/sign/{token}/{bucketName}/{wildcard}": {
+      "get": {
+        "summary": "Get signed object",
+        "tags": ["object"]
+      },
+      "put": {
+        "summary": "Upload to signed URL",
+        "tags": ["object"]
+      }
+    },
+    "/object/{bucketName}": {
+      "delete": {
+        "summary": "Delete multiple objects",
+        "tags": ["object"],
+        "security": [{"bearerAuth": []}]
+      }
+    },
+    "/bucket": {
+      "get": {
+        "summary": "List all buckets",
+        "tags": ["bucket"],
+        "security": [{"bearerAuth": []}]
+      },
+      "post": {
+        "summary": "Create bucket",
+        "tags": ["bucket"],
+        "security": [{"bearerAuth": []}]
+      }
+    },
+    "/bucket/{bucketId}": {
+      "get": {
+        "summary": "Get bucket details",
+        "tags": ["bucket"],
+        "security": [{"bearerAuth": []}]
+      },
+      "put": {
+        "summary": "Update bucket",
+        "tags": ["bucket"],
+        "security": [{"bearerAuth": []}]
+      },
+      "delete": {
+        "summary": "Delete bucket",
+        "tags": ["bucket"],
+        "security": [{"bearerAuth": []}]
+      }
+    },
+    "/bucket/{bucketId}/empty": {
+      "post": {
+        "summary": "Empty bucket",
+        "tags": ["bucket"],
+        "security": [{"bearerAuth": []}]
+      }
+    },
+    "/upload/resumable": {
+      "post": {
+        "summary": "Create TUS upload",
+        "tags": ["resumable"],
+        "security": [{"bearerAuth": []}]
+      },
+      "head": {
+        "summary": "Get TUS upload status",
+        "tags": ["resumable"],
+        "security": [{"bearerAuth": []}]
+      },
+      "patch": {
+        "summary": "Resume TUS upload",
+        "tags": ["resumable"],
+        "security": [{"bearerAuth": []}]
+      },
+      "delete": {
+        "summary": "Cancel TUS upload",
+        "tags": ["resumable"],
+        "security": [{"bearerAuth": []}]
+      }
+    },
+    "/render/image/authenticated/{bucketName}/{wildcard}": {
+      "get": {
+        "summary": "Render authenticated image (transformation)",
+        "tags": ["transformation"],
+        "security": [{"bearerAuth": []}]
+      }
+    },
+    "/render/image/public/{bucketName}/{wildcard}": {
+      "get": {
+        "summary": "Render public image (transformation)",
+        "tags": ["transformation"]
+      }
+    },
+    "/render/image/sign/{token}/{bucketName}/{wildcard}": {
+      "get": {
+        "summary": "Render signed image (transformation)",
+        "tags": ["transformation"]
+      }
+    },
+    "/s3": {
+      "get": {
+        "summary": "S3 ListBuckets",
+        "tags": ["s3"],
+        "description": "S3-compatible protocol endpoint — routes are dynamically matched via router.ts"
+      }
+    },
+    "/s3/{Bucket}": {
+      "get": {
+        "summary": "S3 ListObjects / ListObjectsV2",
+        "tags": ["s3"]
+      },
+      "put": {
+        "summary": "S3 CreateBucket",
+        "tags": ["s3"]
+      },
+      "delete": {
+        "summary": "S3 DeleteBucket",
+        "tags": ["s3"]
+      },
+      "head": {
+        "summary": "S3 HeadBucket",
+        "tags": ["s3"]
+      }
+    },
+    "/s3/{Bucket}/{Key}": {
+      "get": {
+        "summary": "S3 GetObject",
+        "tags": ["s3"]
+      },
+      "put": {
+        "summary": "S3 PutObject / CopyObject / CreateMultipartUpload / CompleteMultipartUpload",
+        "tags": ["s3"]
+      },
+      "delete": {
+        "summary": "S3 DeleteObject / AbortMultipartUpload",
+        "tags": ["s3"]
+      },
+      "head": {
+        "summary": "S3 HeadObject",
+        "tags": ["s3"]
+      },
+      "post": {
+        "summary": "S3 DeleteObjects (multi-delete) / CompleteMultipartUpload",
+        "tags": ["s3"]
+      }
+    },
+    "/cdn/purge": {
+      "delete": {
+        "summary": "Purge CDN cache",
+        "tags": ["cdn"],
+        "security": [{"bearerAuth": []}]
+      }
+    },
+    "/health": {
+      "get": {
+        "summary": "Health check",
+        "tags": ["health"]
+      }
+    },
+    "/iceberg/v1/config": {
+      "get": {
+        "summary": "Iceberg REST catalog config",
+        "tags": ["iceberg"],
+        "security": [{"bearerAuth": []}]
+      }
+    },
+    "/iceberg/v1/namespaces": {
+      "get": {
+        "summary": "List Iceberg namespaces",
+        "tags": ["iceberg"],
+        "security": [{"bearerAuth": []}]
+      },
+      "post": {
+        "summary": "Create Iceberg namespace",
+        "tags": ["iceberg"],
+        "security": [{"bearerAuth": []}]
+      }
+    },
+    "/iceberg/v1/namespaces/{namespace}": {
+      "get": {
+        "summary": "Get Iceberg namespace",
+        "tags": ["iceberg"],
+        "security": [{"bearerAuth": []}]
+      },
+      "delete": {
+        "summary": "Delete Iceberg namespace",
+        "tags": ["iceberg"],
+        "security": [{"bearerAuth": []}]
+      }
+    },
+    "/iceberg/v1/namespaces/{namespace}/tables": {
+      "get": {
+        "summary": "List Iceberg tables",
+        "tags": ["iceberg"],
+        "security": [{"bearerAuth": []}]
+      },
+      "post": {
+        "summary": "Create Iceberg table",
+        "tags": ["iceberg"],
+        "security": [{"bearerAuth": []}]
+      }
+    },
+    "/iceberg/v1/namespaces/{namespace}/tables/{table}": {
+      "get": {
+        "summary": "Get Iceberg table",
+        "tags": ["iceberg"],
+        "security": [{"bearerAuth": []}]
+      },
+      "delete": {
+        "summary": "Delete Iceberg table",
+        "tags": ["iceberg"],
+        "security": [{"bearerAuth": []}]
+      }
+    },
+    "/vector/buckets": {
+      "get": {
+        "summary": "List vector buckets",
+        "tags": ["vector"],
+        "security": [{"bearerAuth": []}]
+      },
+      "post": {
+        "summary": "Create vector bucket",
+        "tags": ["vector"],
+        "security": [{"bearerAuth": []}]
+      }
+    },
+    "/vector/buckets/{bucketId}": {
+      "get": {
+        "summary": "Get vector bucket",
+        "tags": ["vector"],
+        "security": [{"bearerAuth": []}]
+      },
+      "delete": {
+        "summary": "Delete vector bucket",
+        "tags": ["vector"],
+        "security": [{"bearerAuth": []}]
+      }
+    },
+    "/vector/buckets/{bucketId}/indexes": {
+      "get": {
+        "summary": "List vector indexes",
+        "tags": ["vector"],
+        "security": [{"bearerAuth": []}]
+      },
+      "post": {
+        "summary": "Create vector index",
+        "tags": ["vector"],
+        "security": [{"bearerAuth": []}]
+      }
+    },
+    "/vector/buckets/{bucketId}/indexes/{indexId}": {
+      "get": {
+        "summary": "Get vector index",
+        "tags": ["vector"],
+        "security": [{"bearerAuth": []}]
+      },
+      "delete": {
+        "summary": "Delete vector index",
+        "tags": ["vector"],
+        "security": [{"bearerAuth": []}]
+      }
+    },
+    "/vector/buckets/{bucketId}/indexes/{indexId}/vectors": {
+      "get": {
+        "summary": "List vectors",
+        "tags": ["vector"],
+        "security": [{"bearerAuth": []}]
+      },
+      "put": {
+        "summary": "Put (upsert) vectors",
+        "tags": ["vector"],
+        "security": [{"bearerAuth": []}]
+      },
+      "delete": {
+        "summary": "Delete vectors",
+        "tags": ["vector"],
+        "security": [{"bearerAuth": []}]
+      }
+    },
+    "/vector/buckets/{bucketId}/indexes/{indexId}/query": {
+      "post": {
+        "summary": "Query vectors (similarity search)",
+        "tags": ["vector"],
+        "security": [{"bearerAuth": []}]
+      }
+    },
+    "/version": {
+      "get": {
+        "summary": "Get service version",
+        "tags": ["health"]
+      }
+    },
+    "/status": {
+      "get": {
+        "summary": "Get service status",
+        "tags": ["health"]
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  }
+}

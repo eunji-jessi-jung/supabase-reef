@@ -1,0 +1,10 @@
+{
+  "artifact_id": "glossary-realtime",
+  "snapshot_at": "2026-04-15T12:26:26.311680+00:00",
+  "sources": {
+    "lib/realtime.ex": {
+      "hash": "cd07debcbbac3af852c88ca26acf25904e2536752ce33e5bcf5d865a73e8920d",
+      "modified": "2026-04-15T11:57:31.397236+00:00"
+    }
+  }
+}

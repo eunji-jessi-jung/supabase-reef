@@ -1,0 +1,10 @@
+{
+  "artifact_id": "glossary-client-sdk",
+  "snapshot_at": "2026-04-15T12:26:27.465347+00:00",
+  "sources": {
+    "packages/core/supabase-js/src/SupabaseClient.ts": {
+      "hash": "ebd3ab841c152b079e9bd7ee0c08afd2ce34f18ca49037e2d911888fdaa56f88",
+      "modified": "2026-04-15T11:57:33.561975+00:00"
+    }
+  }
+}

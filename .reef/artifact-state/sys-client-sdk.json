@@ -1,0 +1,14 @@
+{
+  "artifact_id": "sys-client-sdk",
+  "snapshot_at": "2026-04-15T12:26:27.266080+00:00",
+  "sources": {
+    "packages/core/supabase-js/src/SupabaseClient.ts": {
+      "hash": "ebd3ab841c152b079e9bd7ee0c08afd2ce34f18ca49037e2d911888fdaa56f88",
+      "modified": "2026-04-15T11:57:33.561975+00:00"
+    },
+    "package.json": {
+      "hash": "dbbca180e3c0860f335ea183497f132275296767734e9bbff599642229f272f4",
+      "modified": "2026-04-15T11:57:32.669220+00:00"
+    }
+  }
+}

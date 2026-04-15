@@ -1,0 +1,14 @@
+{
+  "artifact_id": "sch-realtime",
+  "snapshot_at": "2026-04-15T12:26:26.011030+00:00",
+  "sources": {
+    "lib/realtime/api.ex": {
+      "hash": "02dcc7ea68486ebc9f0b12aa74d33838b82663ad3292f71322e63deeef1c0df6",
+      "modified": "2026-04-15T11:57:31.397909+00:00"
+    },
+    "lib/realtime/tenants/repo.ex": {
+      "hash": "7651fa1bb201f606754cd73324d3da4a1025027dd243f25ae09ae81564909c3e",
+      "modified": "2026-04-15T11:57:31.404302+00:00"
+    }
+  }
+}

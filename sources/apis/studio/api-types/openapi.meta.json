@@ -1,0 +1,10 @@
+{
+  "service": "studio",
+  "sub": "api-types",
+  "source_repo": "supabase",
+  "extraction_tier": 4,
+  "extraction_method": "code reading (generated TypeScript type definitions from openapi-typescript)",
+  "source_path": "packages/api-types/types/api.d.ts, packages/api-types/types/platform.d.ts",
+  "note": "api-types generates TS types from a live Supabase platform API server. The full OpenAPI spec is not available in this repo. Types define 107 v1 API paths and 253 platform paths.",
+  "extracted_at": "2026-04-15T12:15:00Z"
+}

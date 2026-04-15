@@ -1,0 +1,9 @@
+{
+  "service": "storage",
+  "sub": null,
+  "source_repo": "storage",
+  "extraction_tier": 4,
+  "extraction_method": "code reading (Fastify routes, app.ts, and route handler files)",
+  "source_path": "src/app.ts",
+  "extracted_at": "2026-04-15T12:15:00Z"
+}

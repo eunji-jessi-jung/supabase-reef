@@ -1,0 +1,10 @@
+{
+  "artifact_id": "con-auth-realtime",
+  "snapshot_at": "2026-04-15T12:26:27.660153+00:00",
+  "sources": {
+    "lib/realtime/tenants/authorization.ex": {
+      "hash": "cae477b1296e6252389cbd90ddbe97b96f8973d0077e08f4f978efadf1cd271b",
+      "modified": "2026-04-15T11:57:31.401935+00:00"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "artifact_id": "sys-storage",
+  "snapshot_at": "2026-04-15T12:26:26.451293+00:00",
+  "sources": {
+    "src/app.ts": {
+      "hash": "7f2c98b26f9b8175ec67bb3afb22a767b7acbb075edde468fc19236606d92f82",
+      "modified": "2026-04-15T11:57:32.669615+00:00"
+    },
+    "src/http/routes/index.ts": {
+      "hash": "c5ecd0c350fd5caf4cda02fbc28aa4bf4d4dc91e064ce9c2df751e3634a9f106",
+      "modified": "2026-04-15T11:57:32.674580+00:00"
+    }
+  }
+}

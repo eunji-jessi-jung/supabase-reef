@@ -1,0 +1,14 @@
+{
+  "artifact_id": "proc-realtime-auth",
+  "snapshot_at": "2026-04-15T12:26:26.237707+00:00",
+  "sources": {
+    "lib/realtime/tenants/authorization.ex": {
+      "hash": "cae477b1296e6252389cbd90ddbe97b96f8973d0077e08f4f978efadf1cd271b",
+      "modified": "2026-04-15T11:57:31.401935+00:00"
+    },
+    "lib/realtime_web/channels/realtime_channel.ex": {
+      "hash": "d4dc92d6fb392bc1da46cbba75b63cb55d7d14612d20807248d3736a4aacc896",
+      "modified": "2026-04-15T11:57:31.413231+00:00"
+    }
+  }
+}

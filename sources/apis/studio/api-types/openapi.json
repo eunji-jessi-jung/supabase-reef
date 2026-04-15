@@ -1,0 +1,14 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Supabase Management API (from api-types)",
+    "version": "extracted",
+    "description": "Extracted by reading generated TypeScript type definitions (tier 4). The api-types package generates TS types from Supabase platform OpenAPI specs via openapi-typescript. Contains 107 /v1 API paths (163 operations) and 253 platform paths (345 operations). This is the Supabase Management API consumed by Studio, not served by it."
+  },
+  "x-note": "This file represents the type surface of the Supabase Management API as consumed by Studio. The actual OpenAPI spec lives on the Supabase platform API server (not in this repo). The api.d.ts and platform.d.ts files contain the full typed path/operation definitions.",
+  "x-api-paths": 107,
+  "x-api-operations": 163,
+  "x-platform-paths": 253,
+  "x-platform-operations": 345,
+  "paths": {}
+}

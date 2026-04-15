@@ -1,0 +1,14 @@
+{
+  "artifact_id": "con-studio-services",
+  "snapshot_at": "2026-04-15T12:26:27.793756+00:00",
+  "sources": {
+    "apps/studio/data/__templates/keys.ts": {
+      "hash": "07ff6129554cd58e23b9fecb7dd054542613779f2ccbe119faa158c6bbac9ebc",
+      "modified": "2026-04-15T12:00:01.951273+00:00"
+    },
+    "packages/api-types/types/api.d.ts": {
+      "hash": "e1f545f6823b45d91d1be64accbc31c610acec89d1f719b1150b0686c41339c7",
+      "modified": "2026-04-15T12:00:04.393425+00:00"
+    }
+  }
+}

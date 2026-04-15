@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "recipes": {
+    "auth": {
+      "api": null,
+      "erd": null
+    },
+    "realtime": {
+      "api": null,
+      "erd": null
+    },
+    "storage": {
+      "api": null,
+      "erd": null
+    },
+    "studio/studio": {
+      "api": null,
+      "erd": null
+    },
+    "studio/api-types": {
+      "api": null,
+      "erd": null
+    },
+    "studio/pg-meta": {
+      "api": null,
+      "erd": null
+    },
+    "client-sdk": {
+      "api": null,
+      "erd": null
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "artifact_id": "proc-auth-auth",
+  "snapshot_at": "2026-04-15T12:26:25.744106+00:00",
+  "sources": {
+    "internal/api/auth.go": {
+      "hash": "58ffabe551afc61b7de403c81760a3724eb20a3410bea5926475706b05a552d0",
+      "modified": "2026-04-15T11:57:30.401788+00:00"
+    },
+    "internal/tokens/service.go": {
+      "hash": "f3a1ced5c295b4d043bb2a3f5145507d138d9b86218f94cd88ffb7b9567bd484",
+      "modified": "2026-04-15T11:57:30.435412+00:00"
+    }
+  }
+}
