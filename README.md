@@ -69,7 +69,16 @@ The best way to evaluate this reef is to use it:
 - **For cross-service understanding**, read the contracts: `artifacts/contracts/`
 - **For architecture decisions**, read: `artifacts/decisions/`
 - **For "what could go wrong"**, read the risks: `artifacts/risks/`
-- **Works in [Obsidian](https://obsidian.md/)** — all cross-references use `[[wikilink]]` syntax
+## Open in Obsidian
+
+This reef is designed to work as an [Obsidian](https://obsidian.md/) vault. Open this directory in Obsidian and you get:
+
+- **Graph View** — a visual map of how all 69 artifacts connect to each other
+- **Wikilinks** — every `[[ARTIFACT-ID]]` cross-reference is clickable
+- **Backlinks** — see which artifacts reference the one you're reading
+- **Dataview** — query artifacts by type, domain, status, or freshness using YAML frontmatter
+
+No setup required — just "Open folder as vault." The reef is plain markdown, so it also works in VS Code, GitHub, or any markdown tool.
 
 ## Built with Reef
 
