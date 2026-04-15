@@ -76,3 +76,11 @@ The best way to evaluate this reef is to use it:
 [Reef](https://github.com/eunji-jessi-jung/reef) is a Claude Code plugin that builds structured knowledge layers from source code. It reads your repos, extracts architecture, asks you the questions code alone can't answer, and produces interlinked markdown artifacts that AI agents can work from.
 
 This repo is a demo of what Reef produces. It represents a floor — built by a non-engineer with zero Supabase domain knowledge — not a ceiling.
+
+## Author
+
+**Eunji Jung** — Product Manager building tools for AI-assisted software engineering.
+
+- [LinkedIn](https://www.linkedin.com/in/eunji-jessi-jung/)
+- [Reef](https://github.com/eunji-jessi-jung/reef) — the tool that built this
+- Questions or feedback? [Open an issue](https://github.com/eunji-jessi-jung/supabase-reef/issues) or [start a discussion](https://github.com/eunji-jessi-jung/reef/discussions) on the Reef repo.
